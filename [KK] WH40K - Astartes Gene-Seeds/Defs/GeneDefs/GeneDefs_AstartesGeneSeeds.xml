@@ -1,32 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!-- GeneCategoryDef>
-		<defName>KK_GeneSeedBase</defName>
-		<label>astartes gene-seeds</label>
-		<displayPriorityInXenotype>1</displayPriorityInXenotype>
-		<displayPriorityInGenepack>-500</displayPriorityInGenepack>
-	</GeneCategoryDef>
-
-	<GeneTemplateDef Name="KK_GeneSeedBase" Abstract="True">
-		<geneClass>astartes gene-seeds</geneClass>
-		<displayCategory>astartes gene-seeds</displayCategory>
-	</GeneTemplateDef>
-
-	<GeneCategoryDef>
-		<defName>KK_GeneSeedBase</defName>
-		<label>gene-seeds</label>
-		<displayPriorityInXenotype>516.69</displayPriorityInXenotype>
-	</GeneCategoryDef>
-
-	<GeneDef Name="KK_GeneSeedBase" Abstract="True">
-		<displayCategory>KK_GeneSeeds</displayCategory>
-
-		<exclusionTags>
-			<li>KK_GeneSeeds</li>
-			<li>GeneSeeds</li>
-		</exclusionTags>
-	</GeneDef -->
-	
   <GeneDef Name="KK_GeneGenSeedsBase" Abstract="True">
     <biostatCpx>0</biostatCpx>
     <displayCategory>Gene_Seeds</displayCategory>
@@ -42,35 +15,6 @@
     <displayPriorityInXenotype>6666</displayPriorityInXenotype>
   </GeneCategoryDef>
 
-  <!-- GeneDef ParentName="KK_GeneGenSeedsBase">
-    <defName>Hair_BaldOnly</defName>
-    <label>no hair</label>
-    <labelShortAdj>bald</labelShortAdj>
-    <description>Carriers of this gene grow no hair on the head.</description>
-    <iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
-    <displayOrderInCategory>50</displayOrderInCategory>
-    <hairTagFilter>
-      <whitelist>true</whitelist>
-      <tags>
-        <li>Bald</li>
-      </tags>
-    </hairTagFilter>
-    <symbolPack>
-      <prefixSymbols>
-        <li><symbol>bald</symbol></li>
-        <li><symbol>chrome</symbol></li>
-        <li><symbol>dome</symbol></li>
-        <li><symbol>smooth</symbol></li>
-        <li><symbol>bare</symbol></li>
-      </prefixSymbols>
-      <suffixSymbols>
-        <li><symbol>dome</symbol></li>
-        <li><symbol>smooth</symbol></li>
-        <li><symbol>bare</symbol></li>
-      </suffixSymbols>
-    </symbolPack>
-  </GeneDef -->
-
   <!-- 19th - Raven Guard -->
 
   <GeneDef ParentName="KK_GeneGenSeedsBase">
@@ -78,19 +22,48 @@
     <label>XIXth gene-seed</label>
     <labelShortAdj>XIXth gene-seed</labelShortAdj>
     <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Raven Guard.</description>
-	<!-- iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath -->
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
 	
-	<biostatCpx>3</biostatCpx>
+	<biostatCpx>2</biostatCpx>
 	<biostatMet>-4</biostatMet>
 	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
 	</customEffectDescriptions>
+
+	<!-- Ageless -->
 	<biologicalAgeTickFactorFromAgeCurve>
 		<points>
 			<li>(7, 0.0124)</li>
 			<li>(18, 0.0062)</li>
 		</points>
 	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+    <statFactors>
+		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+	</forcedTraits>
+
 	<selectionWeight>0</selectionWeight>
 	
 	<!-- exclusionTags>

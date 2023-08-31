@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<GeneCategoryDef>
+	<!-- GeneCategoryDef>
 		<defName>KK_GeneSeedBase</defName>
 		<label>astartes gene-seeds</label>
 		<displayPriorityInXenotype>1</displayPriorityInXenotype>
@@ -12,9 +12,68 @@
 		<displayCategory>astartes gene-seeds</displayCategory>
 	</GeneTemplateDef>
 
+	<GeneCategoryDef>
+		<defName>KK_GeneSeedBase</defName>
+		<label>gene-seeds</label>
+		<displayPriorityInXenotype>516.69</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneDef Name="KK_GeneSeedBase" Abstract="True">
+		<displayCategory>KK_GeneSeeds</displayCategory>
+
+		<exclusionTags>
+			<li>KK_GeneSeeds</li>
+			<li>GeneSeeds</li>
+		</exclusionTags>
+	</GeneDef -->
+	
+  <GeneDef Name="KK_GeneGenSeedsBase" Abstract="True">
+    <biostatCpx>0</biostatCpx>
+    <displayCategory>Gene_Seeds</displayCategory>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <exclusionTags>
+      <li>GenSeeds</li>
+    </exclusionTags>
+  </GeneDef>
+  
+  <GeneCategoryDef>
+    <defName>Gene_Seeds</defName>
+    <label>gene-seeds</label>
+    <displayPriorityInXenotype>6666</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>Hair_BaldOnly</defName>
+    <label>no hair</label>
+    <labelShortAdj>bald</labelShortAdj>
+    <description>Carriers of this gene grow no hair on the head.</description>
+    <iconPath>UI/Icons/Genes/Gene_HairStyleBaldOnly</iconPath>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>Bald</li>
+      </tags>
+    </hairTagFilter>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>bald</symbol></li>
+        <li><symbol>chrome</symbol></li>
+        <li><symbol>dome</symbol></li>
+        <li><symbol>smooth</symbol></li>
+        <li><symbol>bare</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>dome</symbol></li>
+        <li><symbol>smooth</symbol></li>
+        <li><symbol>bare</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef -->
+
   <!-- 19th - Raven Guard -->
 
-  <GeneDef ParentName="KK_GeneSeedBase">
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XIX</defName>
     <label>XIXth gene-seed</label>
     <labelShortAdj>XIXth gene-seed</labelShortAdj>

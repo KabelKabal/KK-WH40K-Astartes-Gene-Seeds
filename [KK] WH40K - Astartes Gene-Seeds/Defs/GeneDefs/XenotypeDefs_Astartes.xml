@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!--
   <XenotypeDef>
-    <defName>Dirtmole</defName>
-    <label>dirtmole</label>
-    <description>With gray skin adapted to artificial light, they thrive in cramped and dark spaces where combat and travel happen over short distances. They are extremely capable at digging or mining tasks. In the open, however, they suffer from a sensitivity to light, slow speed and poor eyesight at distance.\n\nAfter the first tunnel colonies failed due to the stress of confinement, colonization agencies began genetically altering colonists to live without open space or sunlight. This xenotype are known colloquially as dirtmoles. Today, dirtmoles have expanded out of their original tunnel homes and rule many confined spaces in the anthrosphere. They can be found in deep mines, cramped low-tech spacecraft, and teeming by the billions in the dark underlayers of countless urbworlds.</description>
-    <descriptionShort>With gray skin adapted to artificial light, dirtmoles thrive in cramped and dark spaces where combat and travel happen over short distances. They are naturals at digging and navigating complex tunnel structures. In the open, they suffer from a sensitivity to light, slow speed and poor eyesight at distance.</descriptionShort>
+    <defName>Lycaean</defName>
+    <label>lycaean</label>
+    <description>a real human bean.</description>
+    <descriptionShort>a short human bean.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/Dirtmole</iconPath>
     <inheritable>true</inheritable>
     <nameMaker>NamerPersonDirtmole_Male</nameMaker>
     <nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
     <chanceToUseNameMaker>1</chanceToUseNameMaker>
     <genes>
-      <li>Eyes_Gray</li>
-      <li>Skin_LightGray</li>
-      <li>AptitudeRemarkable_Mining</li>
-      <li>DarkVision</li>
-      <li>MeleeDamage_Strong</li>
-      <li>WoundHealing_Fast</li>
-      <li>Nearsighted</li>
-      <li>UVSensitivity_Intense</li>
-      <li>MoveSpeed_Slow</li>
+      <li>KK_GeneSeed_XIX</li>
+      <li>KK_Skin_NorthEurope</li>
+      <li>Hair_MidBlack</li>
     </genes>
   </XenotypeDef>
 
-  <XenotypeDef>
+  <!-- XenotypeDef>
     <defName>Genie</defName>
     <label>genie</label>
     <description>Designed to be engineers, genies' delicate bones and natural aptitude with machines allow them to manipulate devices with remarkable precision. They are emotionally cold and can follow orders where others might panic. However, they are fragile, and their amplified nerve impulses make them easy to debilitate with relatively little pain. With so much of their brains dedicated to analyzing machines, they lack the neural hardware to analyze emotions, so they sometimes come off as socially inept. Their dead calm makes it even harder for them to relate to what they see as madly-hotheaded baseliner humans.\n\nGenies were engineered thousands of years ago by a long-disbanded space navy to hold engineering positions on large starships. Today, genies still serve as engineers in great cities and fleets, but many can also be found working as lawyers, pilots, and musicians.</description>
@@ -306,7 +299,6 @@
       <li>Libido_High</li>
       <li>PsychicBonding</li>
     </genes>
-  </XenotypeDef>
-  -->
+  </XenotypeDef -->
 
 </Defs>

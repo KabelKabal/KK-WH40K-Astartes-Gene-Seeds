@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneCategoryDef>
+		<defName>KK_GeneSeedBase</defName>
+		<label>astartes gene-seeds</label>
+		<displayPriorityInXenotype>1</displayPriorityInXenotype>
+		<displayPriorityInGenepack>-500</displayPriorityInGenepack>
+	</GeneCategoryDef>
+
+	<GeneTemplateDef Name="KK_GeneSeedBase" Abstract="True">
+		<geneClass>astartes gene-seeds</geneClass>
+		<displayCategory>astartes gene-seeds</displayCategory>
+	</GeneTemplateDef>
+
+  <!-- 19th - Raven Guard -->
+
+  <GeneDef ParentName="KK_GeneSeedBase">
+    <defName>KK_GeneSeed_XIX</defName>
+    <label>XIXth gene-seed</label>
+    <labelShortAdj>XIXth gene-seed</labelShortAdj>
+    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Raven Guard.</description>
+	<!-- iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath -->
+	
+	<biostatCpx>3</biostatCpx>
+	<biostatMet>-4</biostatMet>
+	<customEffectDescriptions>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>19</displayOrderInCategory>
+  </GeneDef>
+</Defs>

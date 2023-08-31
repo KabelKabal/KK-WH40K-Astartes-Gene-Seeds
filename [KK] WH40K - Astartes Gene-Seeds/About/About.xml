@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[KK] Warhammer 40K - Astartes Gene-Seeds</name>
+  <author>KabelKabal</author>
+  <packageId>KabelKabal.WH40KAstartesGeneSeeds</packageId>
+  <url></url>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description></description>
+</ModMetaData>

@@ -62,7 +62,7 @@
 
 		</skillGains>
 		<statOffsets>
-			<MentalBreakThreshold>-0.18</MentalBreakThreshold>
+			<MentalBreakThreshold>-0.5</MentalBreakThreshold>
 		</statOffsets>
       </li>    
     </degreeDatas>

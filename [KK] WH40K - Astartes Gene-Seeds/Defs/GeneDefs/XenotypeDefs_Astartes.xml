@@ -1,14 +1,47 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- 13th - Nagrakali - World Eaters -->
+	<!-- 3rd - Nagrakali - Emperor's Children -->
+	<XenotypeDef>
+		<defName>Chemosian</defName>
+		<label>chemosian</label>
+		<description>Chemosians are the beautiful sons of Fulgrim; the perfectionist hosts drawn from Chemos by the Emperor's Children.
+		</description>
+		<descriptionShort>Chemosians are the beautiful sons of Fulgrim; the perfectionist hosts drawn from Chemos by the Emperor's Children.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_III</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_NorthEurope</li>
+			<li>Hair_SnowWhite</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeStrong_Artistic</li>
+			<li>AptitudeStrong_Social</li>
+			<li>AptitudeTerrible_Mining</li>
+
+			<!-- 3 Uniques -->
+			<li>Beauty_Beautiful</li>
+			<li>MoveSpeed_VeryQuick</li>
+			<li>ChemicalDependency_Psychite</li>
+		</genes>
+	</XenotypeDef>
+
+
+	<!-- 12th - Nagrakali - World Eaters -->
 	<XenotypeDef>
 		<defName>Nagrakali</defName>
 		<label>nagrakali</label>
-		<description>a real human bean.</description>
-			<descriptionShort>
-Nagrakali are the bloodied sons of Angron; a loose collection of tribes elevated from the World Eaters' conquered worlds.
-			</descriptionShort>
+		<description>Nagrakali are the bloodied sons of Angron; a loose collection of tribes elevated from the World Eaters' conquered worlds.
+		</description>
+		<descriptionShort>Nagrakali are the bloodied sons of Angron; a loose collection of tribes elevated from the World Eaters' conquered worlds.
+		</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -27,19 +60,84 @@ Nagrakali are the bloodied sons of Angron; a loose collection of tribes elevated
 			<li>AptitudePoor_Intellectual</li>
 
 			<!-- 3 Uniques -->
-			<li>KillThirst</li>
+			<li>Unstoppable</li>
 			<li>Aggression_HyperAggressive</li>
 			<li>PsychicAbility_Deaf</li>
 		</genes>
 	</XenotypeDef>
-	
+
+	<!-- 15th - Prosperine - Thousand Sons -->
+	<XenotypeDef>
+		<defName>Prosperine</defName>
+		<label>prosperine</label>
+		<description>Prosperine are the mystical sons of Magnus the Red; the scattered cabals of sorcerers pulled to Prospero by the Thousand Sons.
+		</description>
+		<descriptionShort>Prosperine are the mystical sons of Magnus the Red; the scattered cabals of sorcerers pulled to Prospero by the Thousand Sons.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_XV</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_SouthAsia</li>
+			<li>Hair_DarkReddish</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeRemarkable_Intellectual</li>
+			<li>AptitudePoor_Plants</li>
+			<li>AptitudePoor_Mining</li>
+
+			<!-- 3 Uniques -->
+			<li>Aggression_DeadCalm</li>
+			<li>PsychicAbility_Extreme</li>
+			<li>Instability_Major</li>
+		</genes>
+	</XenotypeDef>
+
+
+	<!-- 17th - Colchisian - Word Bearers -->
+	<XenotypeDef>
+		<defName>Colchisian</defName>
+		<label>colchisian</label>
+		<description>Colchisians are the blessed sons of Lorgar Aurellian; chosen zealots drawn by the Word Bearers from Colchis.
+		</description>
+		<descriptionShort>Colchisians are the blessed sons of Lorgar Aurellian; chosen zealots drawn by the Word Bearers from Colchis.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_XVII</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_SouthEurope</li>
+			<li>Hair_BaldOnly</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeRemarkable_Social</li>
+			<li>AptitudePoor_Shooting</li>
+			<li>AptitudePoor_Melee</li>
+
+			<!-- 3 Uniques -->
+			<li>Learning_Fast</li>
+			<li>Mood_Sanguine</li>
+			<li>Delicate</li>
+		</genes>
+	</XenotypeDef>
+
 	<!-- 19th - Lycaean - Raven Guard -->
 	<XenotypeDef>
 		<defName>Lycaean</defName>
 		<label>lycaean</label>
-		<description>a real human bean.</description>
-		<descriptionShort>
-Lycaeans are the mysterious sons of Corvus Corax; a just deliverance of the Lycaean and Terran born sons of the Raven Guard. 
+		<description>Lycaeans are the mysterious sons of Corvus Corax; a just deliverance of the Lycaean and Terran born sons of the Raven Guard.
+		</description>
+		<descriptionShort>Lycaeans are the mysterious sons of Corvus Corax; a just deliverance of the Lycaean and Terran born sons of the Raven Guard.
 		</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>

@@ -1,32 +1,67 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <XenotypeDef>
-    <defName>Lycaean</defName>
-    <label>lycaean</label>
-    <description>a real human bean.</description>
-    <descriptionShort>a short human bean.</descriptionShort>
-    <iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
-    <inheritable>true</inheritable>
-    <nameMaker>NamerPersonDirtmole_Male</nameMaker>
-    <nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
-    <chanceToUseNameMaker>1</chanceToUseNameMaker>
-    <genes>
-      <li>KK_GeneSeed_XIX</li>
-	  <!-- Cosmetics -->
-      <li>Body_Hulk</li>
-      <li>Skin_SheerWhite</li>
-      <li>Hair_InkBlack</li>
-	  
-	  <!-- 2/-2 Aptitude -->
-      <li>AptitudeStrong_Shooting</li>
-      <li>AptitudeStrong_Melee</li>
-      <li>AptitudeTerrible_Social</li>
-	  
-	  <!-- 3 Uniques -->
-      <li>DarkVision</li>
-      <li>MoveSpeed_Quick</li>
-      <li>UVSensitivity_Mild</li>
-    </genes>
-  </XenotypeDef>
+	<!-- 13th - Nagrakali - World Eaters -->
+	<XenotypeDef>
+		<defName>Nagrakali</defName>
+		<label>nagrakali</label>
+		<description>a real human bean.</description>
+			<descriptionShort>
+Nagrakali are the bloodied sons of Angron; a loose collection of tribes elevated from the World Eaters' conquered worlds.
+			</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_XII</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_WestAsia</li>
+			<li>Hair_ReddishBrown</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeRemarkable_Melee</li>
+			<li>AptitudePoor_Social</li>
+			<li>AptitudePoor_Intellectual</li>
+
+			<!-- 3 Uniques -->
+			<li>KillThirst</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>PsychicAbility_Deaf</li>
+		</genes>
+	</XenotypeDef>
+	
+	<!-- 19th - Lycaean - Raven Guard -->
+	<XenotypeDef>
+		<defName>Lycaean</defName>
+		<label>lycaean</label>
+		<description>a real human bean.</description>
+		<descriptionShort>
+Lycaeans are the mysterious sons of Corvus Corax; a just deliverance of the Lycaean and Terran born sons of the Raven Guard. 
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_XIX</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>Skin_SheerWhite</li>
+			<li>Hair_InkBlack</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeStrong_Shooting</li>
+			<li>AptitudeStrong_Melee</li>
+			<li>AptitudeTerrible_Social</li>
+
+			<!-- 3 Uniques -->
+			<li>DarkVision</li>
+			<li>MoveSpeed_Quick</li>
+			<li>UVSensitivity_Mild</li>
+		</genes>
+	</XenotypeDef>
 </Defs>

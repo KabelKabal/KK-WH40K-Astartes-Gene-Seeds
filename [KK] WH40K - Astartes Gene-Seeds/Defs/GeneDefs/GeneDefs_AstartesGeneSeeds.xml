@@ -55,10 +55,13 @@
     </hediffGiversCannotGive>
 
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<MentalBreakThreshold>-0.5</MentalBreakThreshold>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
 	</statFactors>
+    <painFactor>0.25</painFactor>
 	
 	<forcedTraits>
 		<li>
@@ -266,11 +269,13 @@
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.2, 0.26, 0.11)</iconColor>
 	
-	<biostatCpx>2</biostatCpx>
-	<biostatMet>-2	</biostatMet>
+	<biostatCpx>19</biostatCpx>
+	<biostatMet>-5</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
+		<!-- Death Guard Unique -->
+		<li>[Remorseless] Exceptional tox resistance, pain resistance and total tox gas immunity. Terrible movement speed.</li>
 	</customEffectDescriptions>
 
 	<!-- Ageless -->
@@ -294,18 +299,28 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+	<painFactor>0.85</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<!-- Generic -->
+		<MentalBreakThreshold>-0.5</MentalBreakThreshold>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
+		<!-- Death Guard Uniques -->
+		<ToxicResistance>0.85</ToxicResistance>
 	</statFactors>
-	
+    <immuneToToxGasExposure>true</immuneToToxGasExposure>
+
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
 		</li>
 		<li>
-			<def>KK_Trait_DeathGuard</def>
+			<def>KK_Origin_Default</def>
+		</li>
+		<li>
+			<def>SpeedOffset</def>
+			<degree>-2</degree>
 		</li>
 	</forcedTraits>
 

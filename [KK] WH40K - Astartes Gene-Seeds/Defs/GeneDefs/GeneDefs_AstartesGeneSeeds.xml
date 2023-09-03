@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+	<!-- Gene Categories -->
   <GeneDef Name="KK_GeneGenSeedsBase" Abstract="True">
     <biostatCpx>0</biostatCpx>
     <displayCategory>Gene_Seeds</displayCategory>
@@ -63,7 +65,7 @@
 			<def>KK_Astartes</def>
 		</li>
 		<li>
-			<def>DrugDesire</def>
+			<def>Masochist</def>
 		</li>
 	</forcedTraits>
 
@@ -255,6 +257,86 @@
     <displayOrderInCategory>19</displayOrderInCategory>
   </GeneDef>
 
+  <!-- 14th - Death Guard -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_XIV</defName>
+    <label>Death Guard gene-seed</label>
+    <labelShortAdj>XIVth gene-seed</labelShortAdj>
+    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Death Guard.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.2, 0.26, 0.11)</iconColor>
+	
+	<biostatCpx>2</biostatCpx>
+	<biostatMet>-2	</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+    <statFactors>
+		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>KK_Trait_DeathGuard</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>19</displayOrderInCategory>
+  </GeneDef>
+
   <!-- 15th - Thousand Sons -->
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XV</defName>
@@ -301,6 +383,86 @@
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>19</displayOrderInCategory>
+  </GeneDef>
+
+  <!-- 16th - Sons of Horus -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_XVI</defName>
+    <label>Sons of Horus gene-seed</label>
+    <labelShortAdj>XVIth gene-seed</labelShortAdj>
+    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Sons of Horus.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.6, 0.98, 0.6)</iconColor>
+	
+	<biostatCpx>2</biostatCpx>
+	<biostatMet>-2	</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+    <statFactors>
+		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>Immunity</def>
 		</li>
 	</forcedTraits>
 

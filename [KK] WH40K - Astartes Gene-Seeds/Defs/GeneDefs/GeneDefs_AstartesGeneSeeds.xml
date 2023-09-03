@@ -14,9 +14,8 @@
     <label>gene-seeds</label>
     <displayPriorityInXenotype>6666</displayPriorityInXenotype>
   </GeneCategoryDef>
-
+  
   <!-- 3rd - Emperor's Children -->
-
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_III</defName>
     <label>Emperor's Children gene-seed</label>
@@ -63,6 +62,89 @@
 		<li>
 			<def>KK_Astartes</def>
 		</li>
+		<li>
+			<def>DrugDesire</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>19</displayOrderInCategory>
+  </GeneDef>
+
+  <!-- 8th - Night Lords -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_VIII</defName>
+    <label>Night Lords gene-seed</label>
+    <labelShortAdj>VIIIth gene-seed</labelShortAdj>
+    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Night Lords.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.44, 0.46, 0.58)</iconColor>
+	
+	<biostatCpx>3</biostatCpx>
+	<biostatMet>-7</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+    <statFactors>
+		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>Psychopath</def>
+		</li>
 	</forcedTraits>
 
 	<selectionWeight>0</selectionWeight>
@@ -94,7 +176,6 @@
   </GeneDef>
 
   <!-- 12th - World Eaters -->
-
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XII</defName>
     <label>World Eaters gene-seed</label>
@@ -141,6 +222,9 @@
 		<li>
 			<def>KK_Astartes</def>
 		</li>
+		<li>
+			<def>Bloodlust</def>
+		</li>
 	</forcedTraits>
 
 	<selectionWeight>0</selectionWeight>
@@ -172,7 +256,6 @@
   </GeneDef>
 
   <!-- 15th - Thousand Sons -->
-
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XV</defName>
     <label>Thousand Sons gene-seed</label>
@@ -250,7 +333,6 @@
   </GeneDef>
 
   <!-- 17th - Word Bearers -->
-
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XVII</defName>
     <label>Word Bearers gene-seed</label>
@@ -328,7 +410,6 @@
   </GeneDef>
 
   <!-- 19th - Raven Guard -->
-
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XIX</defName>
     <label>Raven Guard gene-seed</label>
@@ -374,6 +455,9 @@
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>NightOwl</def>
 		</li>
 	</forcedTraits>
 

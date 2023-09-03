@@ -33,6 +33,37 @@
 		</genes>
 	</XenotypeDef>
 
+	<!-- 8th - Nostraman - Night Lords -->
+	<XenotypeDef>
+		<defName>Nostraman</defName>
+		<label>nostraman</label>
+		<description>Nostramans are the sadistic sons of Konrad Curze; the murderers and criminal syndicates ripped from Nostramo by the Night Lords.
+		</description>
+		<descriptionShort>Nostramans are the sadistic sons of Konrad Curze; the murderers and criminal syndicates ripped from Nostramo by the Night Lords.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_VIII</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>Skin_SheerWhite</li>
+			<li>Hair_InkBlack</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeStrong_Animals</li>
+			<li>AptitudeStrong_Cooking</li>
+			<li>AptitudeTerrible_Medicine</li>
+
+			<!-- 3 Uniques -->
+			<li>DarkVision</li>
+			<li>KillThirst</li>
+			<li>Mood_Pessimist</li>
+		</genes>
+	</XenotypeDef>
 
 	<!-- 12th - Nagrakali - World Eaters -->
 	<XenotypeDef>

@@ -22,12 +22,16 @@
     <defName>KK_GeneSeed_III</defName>
     <label>Emperor's Children gene-seed</label>
     <labelShortAdj>IIIrd gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Emperor's Children.</description>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Emperor's Children.
+
+[Flawless Execution]
+Pain reverence, stunning beauty and enhanced movement speed. Reduced mental break threshold and dependency on psychite.
+</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.94, 0.61, 0.71)</iconColor>
-	
-	<biostatCpx>2</biostatCpx>
-	<biostatMet>-2	</biostatMet>
+
+	<biostatCpx>19</biostatCpx>
+	<biostatMet>-19</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
@@ -54,26 +58,38 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+    <painFactor>0.5</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<MentalBreakThreshold>0</MentalBreakThreshold>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
-	
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+		<MoveSpeed>0.4</MoveSpeed>
+	</statOffsets>
+
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
 		</li>
 		<li>
+			<def>KK_Astartes_III</def>
+		</li>
+		<li>
 			<def>Masochist</def>
 		</li>
+		<li>
+			<def>Beauty</def>
+			<degree>2</degree>
+		</li>
 	</forcedTraits>
-
+	
 	<selectionWeight>0</selectionWeight>
 	
 	<!-- exclusionTags>
 		<li>KK_GeneSeed_I</li>
-		<li>KK_GeneSeed_II</li>
 		<li>KK_GeneSeed_III</li>
 		<li>KK_GeneSeed_IV</li>
 		<li>KK_GeneSeed_V</li>
@@ -82,7 +98,6 @@
 		<li>KK_GeneSeed_VIII</li>
 		<li>KK_GeneSeed_IX</li>
 		<li>KK_GeneSeed_X</li>
-		<li>KK_GeneSeed_XI</li>
 		<li>KK_GeneSeed_XII</li>
 		<li>KK_GeneSeed_XIII</li>
 		<li>KK_GeneSeed_XIV</li>
@@ -94,7 +109,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>3</displayOrderInCategory>
   </GeneDef>
 
   <!-- 8th - Night Lords -->
@@ -102,12 +117,16 @@
     <defName>KK_GeneSeed_VIII</defName>
     <label>Night Lords gene-seed</label>
     <labelShortAdj>VIIIth gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Night Lords.</description>
+    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Night Lords.
+
+[A Talent for Murder]
+Enhanced night vision and a total lack of empathy. Bleak outlook and a need to continuously kill.
+	</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.44, 0.46, 0.58)</iconColor>
 	
-	<biostatCpx>3</biostatCpx>
-	<biostatMet>-7</biostatMet>
+	<biostatCpx>19</biostatCpx>
+	<biostatMet>-19</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
@@ -134,15 +153,26 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+    <causesNeed>KillThirst</causesNeed>
+    <ignoreDarkness>true</ignoreDarkness>
+	
+    <painFactor>0.5</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<MentalBreakThreshold>-0.2</MentalBreakThreshold>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
-	
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>KK_Astartes_VIII</def>
 		</li>
 		<li>
 			<def>Psychopath</def>
@@ -153,7 +183,6 @@
 	
 	<!-- exclusionTags>
 		<li>KK_GeneSeed_I</li>
-		<li>KK_GeneSeed_II</li>
 		<li>KK_GeneSeed_III</li>
 		<li>KK_GeneSeed_IV</li>
 		<li>KK_GeneSeed_V</li>
@@ -162,7 +191,6 @@
 		<li>KK_GeneSeed_VIII</li>
 		<li>KK_GeneSeed_IX</li>
 		<li>KK_GeneSeed_X</li>
-		<li>KK_GeneSeed_XI</li>
 		<li>KK_GeneSeed_XII</li>
 		<li>KK_GeneSeed_XIII</li>
 		<li>KK_GeneSeed_XIV</li>
@@ -174,7 +202,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>8</displayOrderInCategory>
   </GeneDef>
 
   <!-- 12th - World Eaters -->
@@ -182,12 +210,16 @@
     <defName>KK_GeneSeed_XII</defName>
     <label>World Eaters gene-seed</label>
     <labelShortAdj>XIIth gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the World Eaters.</description>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the World Eaters.
+	
+[]
+Enhanced melee damage and a thirst for bloodshed. Psychically deaf, hyper-aggressive and terrible mental break threshold.
+</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.28, 0.09, 0.06)</iconColor>
 	
-	<biostatCpx>3</biostatCpx>
-	<biostatMet>-7</biostatMet>
+	<biostatCpx>19</biostatCpx>
+	<biostatMet>-19</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
@@ -214,26 +246,42 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+    <socialFightChanceFactor>3</socialFightChanceFactor>
+    <aggroMentalBreakSelectionChanceFactor>999</aggroMentalBreakSelectionChanceFactor>
+    <prisonBreakMTBFactor>0.75</prisonBreakMTBFactor>
+
+    <painFactor>0.5</painFactor>
     <statFactors>
+		<StaggerDurationFactor>0</StaggerDurationFactor>
+		<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 		<MeleeDamageFactor>2.0</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
-	
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
 		</li>
 		<li>
+			<def>KK_Astartes_XII</def>
+		</li>
+		<li>
 			<def>Bloodlust</def>
 		</li>
+		<li>
+			<def>PsychicSensitivity</def>
+			<degree>-2</degree>
+		</li>
 	</forcedTraits>
-
+	
 	<selectionWeight>0</selectionWeight>
 	
 	<!-- exclusionTags>
 		<li>KK_GeneSeed_I</li>
-		<li>KK_GeneSeed_II</li>
 		<li>KK_GeneSeed_III</li>
 		<li>KK_GeneSeed_IV</li>
 		<li>KK_GeneSeed_V</li>
@@ -242,7 +290,6 @@
 		<li>KK_GeneSeed_VIII</li>
 		<li>KK_GeneSeed_IX</li>
 		<li>KK_GeneSeed_X</li>
-		<li>KK_GeneSeed_XI</li>
 		<li>KK_GeneSeed_XII</li>
 		<li>KK_GeneSeed_XIII</li>
 		<li>KK_GeneSeed_XIV</li>
@@ -254,7 +301,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>12</displayOrderInCategory>
   </GeneDef>
 
   <!-- 14th - Death Guard -->
@@ -262,7 +309,11 @@
     <defName>KK_GeneSeed_XIV</defName>
     <label>Death Guard gene-seed</label>
     <labelShortAdj>XIVth gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Death Guard.</description>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Death Guard.
+	
+[Remorseless]
+Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement speed and a repulsive appearance.
+</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.2, 0.26, 0.11)</iconColor>
 	
@@ -294,20 +345,31 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
-	<painFactor>0</painFactor>
 	<immuneToToxGasExposure>true</immuneToToxGasExposure>
+	<painFactor>0.15</painFactor>
     <!-- painFactor>0.5</painFactor -->
     <statFactors>
-		<MentalBreakThreshold>-0.5</MentalBreakThreshold>
+		<MentalBreakThreshold>-0.2</MentalBreakThreshold>
 		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
-		<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
 	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+		<ToxicResistance>0.85</ToxicResistance>
+		<MoveSpeed>-0.2</MoveSpeed>
+	</statOffsets>
 
 	<forcedTraits>
 		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
 			<def>KK_Astartes_XIV</def>
+		</li>
+		<li>
+			<def>Beauty</def>
+			<degree>-2</degree>
 		</li>
 	</forcedTraits>
 

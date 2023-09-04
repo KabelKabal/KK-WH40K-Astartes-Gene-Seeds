@@ -65,6 +65,105 @@
     </degreeDatas>
   </TraitDef>
 
+	<!-- 3rd - Emperor's Children -->
+  <TraitDef>
+    <defName>KK_Astartes_III</defName>
+    <commonality>0</commonality>
+	
+   <degreeDatas>
+      <li>
+        <label>III</label>
+        <description>[PAWN_nameDef] is an Adeptus Astartes of the IIIrd Legion - the Emperor's Children.
+		</description>
+        <degree>1</degree>
+
+		<skillGains>
+			<li>
+				<key>Artistic</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Mining</key>
+				<value>-8</value>
+			</li>
+
+		</skillGains>
+      </li>    
+    </degreeDatas>
+  </TraitDef>
+  
+	<!-- 8th - Night Lords -->
+  <TraitDef>
+    <defName>KK_Astartes_VIII</defName>
+    <commonality>0</commonality>
+	
+   <degreeDatas>
+      <li>
+        <label>VIII</label>
+        <description>[PAWN_nameDef] is an Adeptus Astartes of the VIIIth Legion - the Night Lords.
+		</description>
+        <degree>1</degree>
+				
+		<statOffsets>
+		</statOffsets>
+
+		<skillGains>
+			<li>
+				<key>Animals</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>-8</value>
+			</li>
+
+		</skillGains>
+      </li>    
+    </degreeDatas>
+  </TraitDef>
+
+	<!-- 12th - World Eaters -->
+  <TraitDef>
+    <defName>KK_Astartes_XII</defName>
+    <commonality>0</commonality>
+	
+   <degreeDatas>
+      <li>
+        <label>XII</label>
+        <description>[PAWN_nameDef] is an Adeptus Astartes of the XIIth Legion - the World Eaters.
+		</description>
+        <degree>1</degree>
+				
+		<statOffsets>
+		</statOffsets>
+
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-4</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>-4</value>
+			</li>
+
+		</skillGains>
+      </li>    
+    </degreeDatas>
+  </TraitDef>
+
 	<!-- 14th - Death Guard -->
   <TraitDef>
     <defName>KK_Astartes_XIV</defName>
@@ -72,26 +171,19 @@
 	
    <degreeDatas>
       <li>
-        <label>death guard</label>
+        <label>XIV</label>
         <description>[PAWN_nameDef] is an Adeptus Astartes of the XIVth Legion - the Death Guard.
-		
-		[Remorseless] Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement speed.
 		</description>
         <degree>1</degree>
-				
-		<statOffsets>
-			<ToxicResistance>0.85</ToxicResistance>
-			<MoveSpeed>-0.25</MoveSpeed>
-		</statOffsets>
 
 		<skillGains>
 			<li>
-				<key>Medicine</key>
-				<value>6</value>
+				<key>Plants</key>
+				<value>8</value>
 			</li>
 			<li>
-				<key>Plants</key>
-				<value>4</value>
+				<key>Medicine</key>
+				<value>-4</value>
 			</li>
 			<li>
 				<key>Crafting</key>

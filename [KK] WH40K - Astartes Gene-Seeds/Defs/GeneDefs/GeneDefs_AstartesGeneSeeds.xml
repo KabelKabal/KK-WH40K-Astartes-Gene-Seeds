@@ -266,11 +266,12 @@
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.2, 0.26, 0.11)</iconColor>
 	
-	<biostatCpx>2</biostatCpx>
-	<biostatMet>-2	</biostatMet>
+	<biostatCpx>19</biostatCpx>
+	<biostatMet>-19</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
+		<li>[Remorseless] Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement speed.</li>
 	</customEffectDescriptions>
 
 	<!-- Ageless -->
@@ -294,18 +295,24 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+	<!-- Death Guard Uniques -->
+    <!-- painFactor>0.5</painFactor -->
+    <painFactor>0</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<MentalBreakThreshold>-0.5</MentalBreakThreshold>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
+		<!-- ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance -->
 	</statFactors>
-	
+    <immuneToToxGasExposure>true</immuneToToxGasExposure>
+	<statOffsets>
+		<ToxicResistance>0.85</ToxicResistance>
+	</statOffsets>
+
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
-		</li>
-		<li>
-			<def>KK_Trait_DeathGuard</def>
 		</li>
 	</forcedTraits>
 
@@ -334,7 +341,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>14</displayOrderInCategory>
   </GeneDef>
 
   <!-- 15th - Thousand Sons -->
@@ -411,7 +418,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>15</displayOrderInCategory>
   </GeneDef>
 
   <!-- 16th - Sons of Horus -->

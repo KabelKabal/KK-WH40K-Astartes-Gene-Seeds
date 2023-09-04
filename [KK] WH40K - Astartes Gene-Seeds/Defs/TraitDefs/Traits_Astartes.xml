@@ -7,7 +7,7 @@
     <commonality>0</commonality>
     <degreeDatas>
       <li>
-        <label>angel of death</label>
+        <label>adeptus astartes</label>
         <description>[PAWN_nameDef] is a member of the Legiones Astartes - the Space Marines. They shall know no fear!</description>
         <degree>1</degree>
 		<skillGains>
@@ -58,6 +58,44 @@
 			<li>
 				<key>Intellectual</key>
 				<value>6</value>
+			</li>
+
+		</skillGains>
+      </li>    
+    </degreeDatas>
+  </TraitDef>
+
+	<!-- 14th - Death Guard -->
+  <TraitDef>
+    <defName>KK_Astartes_XIV</defName>
+    <commonality>0</commonality>
+	
+   <degreeDatas>
+      <li>
+        <label>death guard</label>
+        <description>[PAWN_nameDef] is an Adeptus Astartes of the XIVth Legion - the Death Guard.
+		
+		[Remorseless] Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement speed.
+		</description>
+        <degree>1</degree>
+				
+		<statOffsets>
+			<ToxicResistance>0.85</ToxicResistance>
+			<MoveSpeed>-0.25</MoveSpeed>
+		</statOffsets>
+
+		<skillGains>
+			<li>
+				<key>Medicine</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Plants</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>-4</value>
 			</li>
 
 		</skillGains>

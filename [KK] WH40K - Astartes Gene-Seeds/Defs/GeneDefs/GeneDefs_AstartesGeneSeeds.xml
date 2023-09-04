@@ -271,7 +271,6 @@
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
-		<li>[Remorseless] Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement speed.</li>
 	</customEffectDescriptions>
 
 	<!-- Ageless -->
@@ -295,24 +294,20 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
-	<!-- Death Guard Uniques -->
+	<painFactor>0</painFactor>
+	<immuneToToxGasExposure>true</immuneToToxGasExposure>
     <!-- painFactor>0.5</painFactor -->
-    <painFactor>0</painFactor>
     <statFactors>
 		<MentalBreakThreshold>-0.5</MentalBreakThreshold>
 		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
-		<!-- ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance -->
+		<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
 	</statFactors>
-    <immuneToToxGasExposure>true</immuneToToxGasExposure>
-	<statOffsets>
-		<ToxicResistance>0.85</ToxicResistance>
-	</statOffsets>
 
 	<forcedTraits>
 		<li>
-			<def>KK_Astartes</def>
+			<def>KK_Astartes_XIV</def>
 		</li>
 	</forcedTraits>
 
@@ -320,7 +315,6 @@
 	
 	<!-- exclusionTags>
 		<li>KK_GeneSeed_I</li>
-		<li>KK_GeneSeed_II</li>
 		<li>KK_GeneSeed_III</li>
 		<li>KK_GeneSeed_IV</li>
 		<li>KK_GeneSeed_V</li>
@@ -329,7 +323,6 @@
 		<li>KK_GeneSeed_VIII</li>
 		<li>KK_GeneSeed_IX</li>
 		<li>KK_GeneSeed_X</li>
-		<li>KK_GeneSeed_XI</li>
 		<li>KK_GeneSeed_XII</li>
 		<li>KK_GeneSeed_XIII</li>
 		<li>KK_GeneSeed_XIV</li>
@@ -498,7 +491,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>16</displayOrderInCategory>
   </GeneDef>
 
   <!-- 17th - Word Bearers -->
@@ -575,7 +568,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>17</displayOrderInCategory>
   </GeneDef>
 
   <!-- 19th - Raven Guard -->

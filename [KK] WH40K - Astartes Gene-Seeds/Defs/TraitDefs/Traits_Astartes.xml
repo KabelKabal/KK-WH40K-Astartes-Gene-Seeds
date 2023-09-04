@@ -65,6 +65,7 @@
     </degreeDatas>
   </TraitDef>
 
+<<<<<<< HEAD
 	<!-- 3rd - Emperor's Children -->
   <TraitDef>
     <defName>KK_Astartes_III</defName>
@@ -195,4 +196,8 @@
     </degreeDatas>
   </TraitDef>
   
+=======
+ 
+
+>>>>>>> parent of 753ef4c (v0.6 test build:)
 </Defs>

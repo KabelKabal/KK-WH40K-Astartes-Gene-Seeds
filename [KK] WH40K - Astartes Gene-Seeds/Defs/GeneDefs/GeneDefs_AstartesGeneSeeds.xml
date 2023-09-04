@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<!-- Gene Categories -->
   <GeneDef Name="KK_GeneGenSeedsBase" Abstract="True">
     <biostatCpx>0</biostatCpx>
     <displayCategory>Gene_Seeds</displayCategory>
@@ -75,10 +73,14 @@ Pain reverence, stunning beauty and enhanced movement speed. Reduced mental brea
 			<def>KK_Astartes</def>
 		</li>
 		<li>
+<<<<<<< HEAD
 			<def>KK_Astartes_III</def>
 		</li>
 		<li>
 			<def>Masochist</def>
+=======
+			<def>DrugDesire</def>
+>>>>>>> parent of 753ef4c (v0.6 test build:)
 		</li>
 		<li>
 			<def>Beauty</def>
@@ -304,6 +306,7 @@ Enhanced melee damage and a thirst for bloodshed. Psychically deaf, hyper-aggres
     <displayOrderInCategory>12</displayOrderInCategory>
   </GeneDef>
 
+<<<<<<< HEAD
   <!-- 14th - Death Guard -->
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XIV</defName>
@@ -399,6 +402,8 @@ Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement 
     <displayOrderInCategory>14</displayOrderInCategory>
   </GeneDef>
 
+=======
+>>>>>>> parent of 753ef4c (v0.6 test build:)
   <!-- 15th - Thousand Sons -->
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XV</defName>
@@ -476,6 +481,7 @@ Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement 
     <displayOrderInCategory>15</displayOrderInCategory>
   </GeneDef>
 
+<<<<<<< HEAD
   <!-- 16th - Sons of Horus -->
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XVI</defName>
@@ -556,6 +562,8 @@ Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement 
     <displayOrderInCategory>16</displayOrderInCategory>
   </GeneDef>
 
+=======
+>>>>>>> parent of 753ef4c (v0.6 test build:)
   <!-- 17th - Word Bearers -->
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XVII</defName>

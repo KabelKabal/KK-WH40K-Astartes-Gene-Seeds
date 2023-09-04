@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 z<?xml version="1.0" encoding="utf-8" ?>	
+=======
+<?xml version="1.0" encoding="utf-8" ?>
+>>>>>>> parent of 753ef4c (v0.6 test build:)
 <Defs>
 
-	<!-- 3rd - Chemosian - Emperor's Children -->
+	<!-- 3rd - Nagrakali - Emperor's Children -->
 	<XenotypeDef>
 		<defName>Chemosian</defName>
 		<label>chemosian</label>
@@ -72,6 +76,7 @@ z<?xml version="1.0" encoding="utf-8" ?>
 		</genes>
 	</XenotypeDef>
 
+<<<<<<< HEAD
 	<!-- 14th - Barbarusian - Death Guard -->
 	<XenotypeDef>
 		<defName>Barbarusian</defName>
@@ -96,6 +101,8 @@ z<?xml version="1.0" encoding="utf-8" ?>
 		</genes>
 	</XenotypeDef>
 
+=======
+>>>>>>> parent of 753ef4c (v0.6 test build:)
 	<!-- 15th - Prosperine - Thousand Sons -->
 	<XenotypeDef>
 		<defName>Prosperine</defName>
@@ -128,37 +135,6 @@ z<?xml version="1.0" encoding="utf-8" ?>
 		</genes>
 	</XenotypeDef>
 
-	<!-- 16th - Cthonian - Sons of Horus -->
-	<XenotypeDef>
-		<defName>Cthonian</defName>
-		<label>cthonian</label>
-		<description>Cthonians are the fanatic sons of Horus Lupercal; the vanguard force united on Cthonia by the Sons of Horus.
-		</description>
-		<descriptionShort>Cthonians are the fanatic sons of Horus Lupercal; the vanguard force united on Cthonia by the Sons of Horus.
-		</descriptionShort>
-		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
-		<inheritable>true</inheritable>
-		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
-		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
-		<chanceToUseNameMaker>1</chanceToUseNameMaker>
-		<genes>
-			<li>KK_GeneSeed_XVI</li>
-			<!-- Cosmetics -->
-			<li>Body_Hulk</li>
-			<li>KK_Skin_NorthEurope</li>
-			<li>Hair_BaldOnly</li>
-
-			<!-- 2/-2 Aptitude -->
-			<li>AptitudeStrong_Shooting</li>
-			<li>AptitudeStrong_Melee</li>
-			<li>AptitudeTerrible_Plants</li>
-
-			<!-- 3 Uniques -->
-			<li>Aggression_DeadCalm</li>
-			<li>PsychicAbility_Extreme</li>
-			<li>Instability_Major</li>
-		</genes>
-	</XenotypeDef>
 
 	<!-- 17th - Colchisian - Word Bearers -->
 	<XenotypeDef>

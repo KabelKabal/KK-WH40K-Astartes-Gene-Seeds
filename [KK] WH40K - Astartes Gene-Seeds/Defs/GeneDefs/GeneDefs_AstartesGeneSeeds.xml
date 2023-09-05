@@ -20,11 +20,15 @@
     <defName>KK_GeneSeed_III</defName>
     <label>Emperor's Children gene-seed</label>
     <labelShortAdj>IIIrd gene-seed</labelShortAdj>
+<<<<<<< HEAD
     <description>This gene implants a pawn with the Astartes Gene-Seed of the Emperor's Children.
 
 [Flawless Execution]
 Pain reverence, stunning beauty and enhanced movement speed. Reduced mental break threshold and dependency on psychite.
 </description>
+=======
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Emperor's Children.</description>
+>>>>>>> parent of 94a3ef1 (v0.8-01 test build:)
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.94, 0.61, 0.71)</iconColor>
 
@@ -74,7 +78,11 @@ Pain reverence, stunning beauty and enhanced movement speed. Reduced mental brea
 		</li>
 		<li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<def>KK_Astartes_III</def>
+=======
+			<def>KK_Trait_III</def>
+>>>>>>> parent of 94a3ef1 (v0.8-01 test build:)
 		</li>
 		<li>
 			<def>Masochist</def>
@@ -119,6 +127,7 @@ Pain reverence, stunning beauty and enhanced movement speed. Reduced mental brea
     <defName>KK_GeneSeed_VIII</defName>
     <label>Night Lords gene-seed</label>
     <labelShortAdj>VIIIth gene-seed</labelShortAdj>
+<<<<<<< HEAD
     <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Night Lords.
 
 [A Talent for Murder]
@@ -129,6 +138,14 @@ Enhanced night vision and a total lack of empathy. Bleak outlook and a need to c
 	
 	<biostatCpx>19</biostatCpx>
 	<biostatMet>-19</biostatMet>
+=======
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Night Lords.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.44, 0.46, 0.58)</iconColor>
+	
+	<biostatCpx>12</biostatCpx>
+	<biostatMet>-7</biostatMet>
+>>>>>>> parent of 94a3ef1 (v0.8-01 test build:)
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
@@ -212,6 +229,7 @@ Enhanced night vision and a total lack of empathy. Bleak outlook and a need to c
     <defName>KK_GeneSeed_XII</defName>
     <label>World Eaters gene-seed</label>
     <labelShortAdj>XIIth gene-seed</labelShortAdj>
+<<<<<<< HEAD
     <description>This gene implants a pawn with the Astartes Gene-Seed of the World Eaters.
 	
 []
@@ -222,6 +240,14 @@ Enhanced melee damage and a thirst for bloodshed. Psychically deaf, hyper-aggres
 	
 	<biostatCpx>19</biostatCpx>
 	<biostatMet>-19</biostatMet>
+=======
+    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the World Eaters.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.28, 0.09, 0.06)</iconColor>
+	
+	<biostatCpx>3</biostatCpx>
+	<biostatMet>-7</biostatMet>
+>>>>>>> parent of 94a3ef1 (v0.8-01 test build:)
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
@@ -312,6 +338,7 @@ Enhanced melee damage and a thirst for bloodshed. Psychically deaf, hyper-aggres
     <defName>KK_GeneSeed_XIV</defName>
     <label>Death Guard gene-seed</label>
     <labelShortAdj>XIVth gene-seed</labelShortAdj>
+<<<<<<< HEAD
     <description>This gene implants a pawn with the Astartes Gene-Seed of the Death Guard.
 	
 [Remorseless]
@@ -322,6 +349,14 @@ Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement 
 	
 	<biostatCpx>19</biostatCpx>
 	<biostatMet>-19</biostatMet>
+=======
+    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Death Guard.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.2, 0.26, 0.11)</iconColor>
+	
+	<biostatCpx>2</biostatCpx>
+	<biostatMet>-2	</biostatMet>
+>>>>>>> parent of 94a3ef1 (v0.8-01 test build:)
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
@@ -413,6 +448,7 @@ Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement 
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.12, 0.25, 0.50)</iconColor>
 	
+<<<<<<< HEAD
 	<biostatCpx>2</biostatCpx>
 	<biostatMet>-2</biostatMet>
 	<customEffectDescriptions>
@@ -491,6 +527,8 @@ Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement 
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.6, 0.98, 0.6)</iconColor>
 	
+=======
+>>>>>>> parent of 94a3ef1 (v0.8-01 test build:)
 	<biostatCpx>2</biostatCpx>
 	<biostatMet>-2	</biostatMet>
 	<customEffectDescriptions>
@@ -529,9 +567,107 @@ Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement 
 		<li>
 			<def>KK_Astartes</def>
 		</li>
+<<<<<<< HEAD
 		<li>
 			<def>Immunity</def>
 		</li>
+=======
+>>>>>>> parent of 94a3ef1 (v0.8-01 test build:)
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>15</displayOrderInCategory>
+  </GeneDef>
+
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 753ef4c (v0.6 test build:)
+  <!-- 17th - Word Bearers -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_XVII</defName>
+    <label>Word Bearers gene-seed</label>
+    <labelShortAdj>XVIIth gene-seed</labelShortAdj>
+    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Word Bearers.</description>
+=======
+  <!-- 16th - Sons of Horus -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_XVI</defName>
+    <label>Sons of Horus gene-seed</label>
+    <labelShortAdj>XVIth gene-seed</labelShortAdj>
+    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Sons of Horus.</description>
+>>>>>>> parent of 94a3ef1 (v0.8-01 test build:)
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.6, 0.98, 0.6)</iconColor>
+	
+<<<<<<< HEAD
+	<biostatCpx>0</biostatCpx>
+	<biostatMet>-2</biostatMet>
+=======
+	<biostatCpx>2</biostatCpx>
+	<biostatMet>-2	</biostatMet>
+>>>>>>> parent of 94a3ef1 (v0.8-01 test build:)
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+    <statFactors>
+		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+<<<<<<< HEAD
+=======
 	</forcedTraits>
 
 	<selectionWeight>0</selectionWeight>
@@ -562,8 +698,6 @@ Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement 
     <displayOrderInCategory>16</displayOrderInCategory>
   </GeneDef>
 
-=======
->>>>>>> parent of 753ef4c (v0.6 test build:)
   <!-- 17th - Word Bearers -->
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XVII</defName>
@@ -601,16 +735,23 @@ Enhanced tox and pain resistance, and total tox gas immunity. Terrible movement 
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
 	
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
 		</li>
+>>>>>>> parent of 94a3ef1 (v0.8-01 test build:)
 	</forcedTraits>
 
 	<selectionWeight>0</selectionWeight>

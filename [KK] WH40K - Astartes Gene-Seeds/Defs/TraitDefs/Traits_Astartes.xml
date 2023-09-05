@@ -68,7 +68,7 @@
   </TraitDef>
 
 	<!-- 3rd - Emperor's Children -->
-  <TraitDef>
+  <!-- TraitDef>
     <defName>KK_Trait_III</defName>
     <commonality>0</commonality>
     <degreeDatas>
@@ -84,6 +84,6 @@
 		</statOffsets>
       </li>    
     </degreeDatas>
-  </TraitDef>
+  </TraitDef -->
 
 </Defs>

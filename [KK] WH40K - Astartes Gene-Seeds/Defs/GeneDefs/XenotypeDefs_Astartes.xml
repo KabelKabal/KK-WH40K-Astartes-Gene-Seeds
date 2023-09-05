@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>	
 <Defs>
 
+	<!-- 1st - Calibanian - Dark Angels -->
+	<XenotypeDef>
+		<defName>Calibanian</defName>
+		<label>calibanian</label>
+		<description>Calibanians are the grim sons of Lion El'Jonson - the courageous warriors elevated from Caliban by the Dark Angels.
+		</description>
+		<descriptionShort>Calibanians are the grim sons of Lion El'Jonson - the courageous warriors elevated from Caliban by the Dark Angels.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_I</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_NorthEurope</li>
+			<li>Hair_SandyBlonde</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeStrong_Shooting</li>
+			<li>AptitudeStrong_Crafting</li>
+			<li>AptitudeTerrible_Social</li>
+
+			<!-- 3 Uniques -->
+			<li>LowSleep</li>
+			<li>Aggression_Aggressive</li>
+			<li>Mood_Pessimist</li>
+		</genes>
+	</XenotypeDef>
+
 	<!-- 3rd - Chemosian - Emperor's Children -->
 	<XenotypeDef>
 		<defName>Chemosian</defName>
@@ -30,6 +62,70 @@
 			<li>Beauty_Beautiful</li>
 			<li>MoveSpeed_VeryQuick</li>
 			<li>ChemicalDependency_Psychite</li>
+		</genes>
+	</XenotypeDef>
+
+	<!-- 4th - Olympian - Iron Warriors -->
+	<XenotypeDef>
+		<defName>Olympian</defName>
+		<label>olympian</label>
+		<description>Olympians are the tough sons of Perturabo - the iron-willed warriors tempered from Olympia by the Iron Warriors.
+		</description>
+		<descriptionShort>Olympians are the tough sons of Perturabo - the iron-willed warriors tempered from Olympia by the Iron Warriors.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_IV</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_NorthEurope</li>
+			<li>Hair_BaldOnly</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeRemarkable_Shooting</li>
+			<li>AptitudePoor_Melee</li>
+			<li>AptitudePoor_Animals</li>
+
+			<!-- 3 Uniques -->
+			<li>Robust</li>
+			<li>Pain_Reduced</li>
+			<li>MoveSpeed_Slow</li>
+		</genes>
+	</XenotypeDef>
+
+	<!-- 5th - Chogorian - White Scars -->
+	<XenotypeDef>
+		<defName>Chogorian</defName>
+		<label>chogorian</label>
+		<description>Chogorians are the free sons of Jaghatai Khan - the outriding nomads born of Chogoris by the White Scars.
+		</description>
+		<descriptionShort>Chogorians are the free sons of Jaghatai Khan - the outriding nomads born of Chogoris by the White Scars.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_V</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_WestAsia</li>
+			<li>Hair_SandyBlonde</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeStrong_Shooting</li>
+			<li>AptitudeStrong_Animals</li>
+			<li>AptitudeTerrible_Construction</li>
+
+			<!-- 3 Uniques -->
+			<li>MoveSpeed_Quick</li>
+			<li>Aggression_Aggressive</li>
+			<li>PsychicAbility_Dull</li>
 		</genes>
 	</XenotypeDef>
 

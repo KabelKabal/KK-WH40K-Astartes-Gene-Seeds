@@ -179,17 +179,17 @@
 			<!-- Cosmetics -->
 			<li>Body_Hulk</li>
 			<li>KK_Skin_NorthEurope</li>
-			<li>Hair_BaldOnly</li>
+			<li>Hair_DarkBlack</li>
 
 			<!-- 2/-2 Aptitude -->
-			<li>AptitudeStrong_Shooting</li>
 			<li>AptitudeStrong_Melee</li>
+			<li>AptitudeStrong_Social</li>
 			<li>AptitudeTerrible_Plants</li>
 
 			<!-- 3 Uniques -->
-			<li>Aggression_DeadCalm</li>
-			<li>PsychicAbility_Extreme</li>
-			<li>Instability_Major</li>
+			<li>Robust</li>
+			<li>PsychicBonding</li>
+			<li>Aggression_Aggressive</li>
 		</genes>
 	</XenotypeDef>
 

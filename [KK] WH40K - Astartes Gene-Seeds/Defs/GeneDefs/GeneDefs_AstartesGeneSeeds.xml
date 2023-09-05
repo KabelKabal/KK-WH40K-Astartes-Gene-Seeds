@@ -21,7 +21,7 @@
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_III</defName>
     <label>Emperor's Children gene-seed</label>
-    <labelShortAdj>IIIrd gene-seed</labelShortAdj>
+    <labelShortAdj>3rd gene-seed</labelShortAdj>
     <description>This gene implants a pawn with the Astartes Gene-Seed of the Emperor's Children.</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.94, 0.61, 0.71)</iconColor>
@@ -71,9 +71,6 @@
 			<def>KK_Astartes</def>
 		</li>
 		<li>
-			<def>KK_Trait_III</def>
-		</li>
-		<li>
 			<def>Masochist</def>
 		</li>
 	</forcedTraits>
@@ -110,13 +107,13 @@
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_VIII</defName>
     <label>Night Lords gene-seed</label>
-    <labelShortAdj>VIIIth gene-seed</labelShortAdj>
+    <labelShortAdj>8th gene-seed</labelShortAdj>
     <description>This gene implants a pawn with the Astartes Gene-Seed of the Night Lords.</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.44, 0.46, 0.58)</iconColor>
 	
 	<biostatCpx>12</biostatCpx>
-	<biostatMet>-7</biostatMet>
+	<biostatMet>-21</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
@@ -196,13 +193,13 @@
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XII</defName>
     <label>World Eaters gene-seed</label>
-    <labelShortAdj>XIIth gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the World Eaters.</description>
+    <labelShortAdj>12th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the World Eaters.</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.28, 0.09, 0.06)</iconColor>
 	
-	<biostatCpx>3</biostatCpx>
-	<biostatMet>-7</biostatMet>
+	<biostatCpx>12</biostatCpx>
+	<biostatMet>-21</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
@@ -282,13 +279,13 @@
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XIV</defName>
     <label>Death Guard gene-seed</label>
-    <labelShortAdj>XIVth gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Death Guard.</description>
+    <labelShortAdj>14th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Death Guard.</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.2, 0.26, 0.11)</iconColor>
 	
-	<biostatCpx>2</biostatCpx>
-	<biostatMet>-2	</biostatMet>
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-16</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
@@ -369,13 +366,13 @@
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XV</defName>
     <label>Thousand Sons gene-seed</label>
-    <labelShortAdj>XVth gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Thousand Sons.</description>
+    <labelShortAdj>15th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Thousand Sons.</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.12, 0.25, 0.50)</iconColor>
 	
-	<biostatCpx>2</biostatCpx>
-	<biostatMet>-2</biostatMet>
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-16</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
@@ -417,6 +414,9 @@
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>Asexual</def>
 		</li>
 	</forcedTraits>
 
@@ -452,95 +452,12 @@
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XVI</defName>
     <label>Sons of Horus gene-seed</label>
-    <labelShortAdj>XVIth gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Sons of Horus.</description>
+    <labelShortAdj>16th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Sons of Horus.</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.6, 0.98, 0.6)</iconColor>
 	
 	<biostatCpx>2</biostatCpx>
-	<biostatMet>-2	</biostatMet>
-	<customEffectDescriptions>
-		<li>Immunity to age-related illnesses.</li>
-		<li>Age will slow to near immortaility.</li>
-	</customEffectDescriptions>
-
-	<!-- Ageless -->
-	<biologicalAgeTickFactorFromAgeCurve>
-		<points>
-			<li>(7, 0.0124)</li>
-			<li>(18, 0.0062)</li>
-		</points>
-	</biologicalAgeTickFactorFromAgeCurve>
-	
-	<!-- Illness-Free -->
-    <hediffGiversCannotGive>
-      <li>Carcinoma</li>
-      <li>HeartAttack</li>
-      <li>BadBack</li>
-      <li>Frail</li>
-      <li>Cataract</li>
-      <li>Dementia</li>
-      <li>Alzheimers</li>
-      <li>Asthma</li>
-      <li>HeartArteryBlockage</li>
-    </hediffGiversCannotGive>
-
-	<!-- Bonuses -->
-    <painFactor>0.25</painFactor>
-    <statFactors>
-		<InjuryHealingFactor>0.25</InjuryHealingFactor>
-		<MeleeDamageFactor>1.5</MeleeDamageFactor>
-		<RestFallRateFactor>0.5</RestFallRateFactor>
-		<Fertility>0</Fertility>
-	</statFactors>
-	<statOffsets>
-		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
-	</statOffsets>
-	
-	<forcedTraits>
-		<li>
-			<def>KK_Astartes</def>
-		</li>
-	</forcedTraits>
-
-	<selectionWeight>0</selectionWeight>
-	
-	<!-- exclusionTags>
-		<li>KK_GeneSeed_I</li>
-		<li>KK_GeneSeed_II</li>
-		<li>KK_GeneSeed_III</li>
-		<li>KK_GeneSeed_IV</li>
-		<li>KK_GeneSeed_V</li>
-		<li>KK_GeneSeed_VI</li>
-		<li>KK_GeneSeed_VII</li>
-		<li>KK_GeneSeed_VIII</li>
-		<li>KK_GeneSeed_IX</li>
-		<li>KK_GeneSeed_X</li>
-		<li>KK_GeneSeed_XI</li>
-		<li>KK_GeneSeed_XII</li>
-		<li>KK_GeneSeed_XIII</li>
-		<li>KK_GeneSeed_XIV</li>
-		<li>KK_GeneSeed_XV</li>
-		<li>KK_GeneSeed_XVI</li>
-		<li>KK_GeneSeed_XVII</li>
-		<li>KK_GeneSeed_XVIII</li>
-		<li>KK_GeneSeed_XIX</li>
-		<li>KK_GeneSeed_XX</li>
-	</exclusionTags -->
-	
-    <displayOrderInCategory>16</displayOrderInCategory>
-  </GeneDef>
-
-  <!-- 17th - Word Bearers -->
-  <GeneDef ParentName="KK_GeneGenSeedsBase">
-    <defName>KK_GeneSeed_XVII</defName>
-    <label>Word Bearers gene-seed</label>
-    <labelShortAdj>XVIIth gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Word Bearers.</description>
-	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
-    <iconColor>(0.58, 0.53, 0.55)</iconColor>
-	
-	<biostatCpx>0</biostatCpx>
 	<biostatMet>-2</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
@@ -584,6 +501,96 @@
 		<li>
 			<def>KK_Astartes</def>
 		</li>
+		<li>
+			<def>Bisexual</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>16</displayOrderInCategory>
+  </GeneDef>
+
+  <!-- 17th - Word Bearers -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_XVII</defName>
+    <label>Word Bearers gene-seed</label>
+    <labelShortAdj>17th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Word Bearers.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.58, 0.53, 0.55)</iconColor>
+	
+	<biostatCpx>9</biostatCpx>
+	<biostatMet>-16</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
+    <statFactors>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>DrugDesire</def>
+			<degree>-1</degree>
+		</li>
 	</forcedTraits>
 
 	<selectionWeight>0</selectionWeight>
@@ -618,13 +625,13 @@
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XIX</defName>
     <label>Raven Guard gene-seed</label>
-    <labelShortAdj>XIXth gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Raven Guard.</description>
+    <labelShortAdj>19th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Raven Guard.</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.0, 0.0, 0.0)</iconColor>
 
-	<biostatCpx>2</biostatCpx>
-	<biostatMet>-4</biostatMet>
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-18</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>

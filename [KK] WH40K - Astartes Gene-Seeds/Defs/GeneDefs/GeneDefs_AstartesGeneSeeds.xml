@@ -17,6 +17,92 @@
     <displayPriorityInXenotype>6666</displayPriorityInXenotype>
   </GeneCategoryDef>
   
+  <!-- 1st - Dark Angels -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_I</defName>
+    <label>Dark Angels gene-seed</label>
+    <labelShortAdj>1st gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Dark Angels.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.27, 0.63, 0.27)</iconColor>
+	
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-16</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
+    <statFactors>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>Masochist</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>1</displayOrderInCategory>
+  </GeneDef>
+
   <!-- 3rd - Emperor's Children -->
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_III</defName>
@@ -101,6 +187,350 @@
 	</exclusionTags -->
 	
     <displayOrderInCategory>3</displayOrderInCategory>
+  </GeneDef>
+
+  <!-- 4th - Iron Warriors -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_IV</defName>
+    <label>Iron Warriors gene-seed</label>
+    <labelShortAdj>4th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Iron Warriors.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.29, 0.26, 0.26)</iconColor>
+	
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-16</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
+    <statFactors>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>Masochist</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>4</displayOrderInCategory>
+  </GeneDef>
+
+  <!-- 5th - White Scars -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_V</defName>
+    <label>White Scars gene-seed</label>
+    <labelShortAdj>5th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the White Scars.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(1.0, 1.0, 1.0)</iconColor>
+	
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-16</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
+    <statFactors>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>Masochist</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>5</displayOrderInCategory>
+  </GeneDef>
+
+  <!-- 6th - Space Wolves -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_VI</defName>
+    <label>Space Wolves gene-seed</label>
+    <labelShortAdj>6th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Space Wolves.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.4, 0.47, 0.51)</iconColor>
+	
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-16</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
+    <statFactors>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>Masochist</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>6</displayOrderInCategory>
+  </GeneDef>
+
+  <!-- 7th - Imperial Fists -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_VII</defName>
+    <label>Imperial Fists gene-seed</label>
+    <labelShortAdj>7th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Imperial Fists.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.83, 0.69, 0.16)</iconColor>
+	
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-16</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
+    <statFactors>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>Masochist</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>7</displayOrderInCategory>
   </GeneDef>
 
   <!-- 8th - Night Lords -->
@@ -189,6 +619,178 @@
     <displayOrderInCategory>8</displayOrderInCategory>
   </GeneDef>
 
+  <!-- 9th - Blood Angels -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_IX</defName>
+    <label>Blood Angels gene-seed</label>
+    <labelShortAdj>9th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Blood Angels.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.72, 0.19, 0.15)</iconColor>
+	
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-16</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
+    <statFactors>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>Masochist</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>9</displayOrderInCategory>
+  </GeneDef>
+
+  <!-- 10th - Iron Hands -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_X</defName>
+    <label>Iron Hands gene-seed</label>
+    <labelShortAdj>10th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Iron Hands.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.1, 0.1, 0.1)</iconColor>
+	
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-16</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
+    <statFactors>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>Masochist</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>10</displayOrderInCategory>
+  </GeneDef>
+
   <!-- 12th - World Eaters -->
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XII</defName>
@@ -273,6 +875,92 @@
 	</exclusionTags -->
 	
     <displayOrderInCategory>12</displayOrderInCategory>
+  </GeneDef>
+
+  <!-- 13th - Ultramarines -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_XIII</defName>
+    <label>Ultramarines gene-seed</label>
+    <labelShortAdj>13th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Ultramarines.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.46, 0.49, 0.66)</iconColor>
+	
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-16</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
+    <statFactors>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>Masochist</def>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>13</displayOrderInCategory>
   </GeneDef>
 
   <!-- 14th - Death Guard -->
@@ -621,6 +1309,93 @@
     <displayOrderInCategory>17</displayOrderInCategory>
   </GeneDef>
 
+  <!-- 18th - Salamanders -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_XVIII</defName>
+    <label>Salamanders gene-seed</label>
+    <labelShortAdj>18th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Salamanders.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.25, 0.22, 0.22)</iconColor>
+	
+	<biostatCpx>9</biostatCpx>
+	<biostatMet>-16</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
+    <statFactors>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>DrugDesire</def>
+			<degree>-1</degree>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>18</displayOrderInCategory>
+  </GeneDef>
+
   <!-- 19th - Raven Guard -->
   <GeneDef ParentName="KK_GeneGenSeedsBase">
     <defName>KK_GeneSeed_XIX</defName>
@@ -628,7 +1403,7 @@
     <labelShortAdj>19th gene-seed</labelShortAdj>
     <description>This gene implants a pawn with the Astartes Gene-Seed of the Raven Guard.</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
-    <iconColor>(0.0, 0.0, 0.0)</iconColor>
+    <iconColor>(0.1, 0.1, 0.1)</iconColor>
 
 	<biostatCpx>11</biostatCpx>
 	<biostatMet>-18</biostatMet>
@@ -705,5 +1480,92 @@
 	</exclusionTags -->
 	
     <displayOrderInCategory>19</displayOrderInCategory>
+  </GeneDef>
+
+  <!-- 20th - Alpha Legion -->
+  <GeneDef ParentName="KK_GeneGenSeedsBase">
+    <defName>KK_GeneSeed_XX</defName>
+    <label>Alpha Legion gene-seed</label>
+    <labelShortAdj>20th gene-seed</labelShortAdj>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Alpha Legion.</description>
+	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
+    <iconColor>(0.16, 0.25, 0.33)</iconColor>
+	
+	<biostatCpx>9</biostatCpx>
+	<biostatMet>-16</biostatMet>
+	<customEffectDescriptions>
+		<li>Immunity to age-related illnesses.</li>
+		<li>Age will slow to near immortaility.</li>
+	</customEffectDescriptions>
+
+	<!-- Ageless -->
+	<biologicalAgeTickFactorFromAgeCurve>
+		<points>
+			<li>(7, 0.0124)</li>
+			<li>(18, 0.0062)</li>
+		</points>
+	</biologicalAgeTickFactorFromAgeCurve>
+	
+	<!-- Illness-Free -->
+    <hediffGiversCannotGive>
+      <li>Carcinoma</li>
+      <li>HeartAttack</li>
+      <li>BadBack</li>
+      <li>Frail</li>
+      <li>Cataract</li>
+      <li>Dementia</li>
+      <li>Alzheimers</li>
+      <li>Asthma</li>
+      <li>HeartArteryBlockage</li>
+    </hediffGiversCannotGive>
+
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
+    <statFactors>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
+		<RestFallRateFactor>0.5</RestFallRateFactor>
+		<Fertility>0</Fertility>
+	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
+	
+	<forcedTraits>
+		<li>
+			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>DrugDesire</def>
+			<degree>-1</degree>
+		</li>
+	</forcedTraits>
+
+	<selectionWeight>0</selectionWeight>
+	
+	<!-- exclusionTags>
+		<li>KK_GeneSeed_I</li>
+		<li>KK_GeneSeed_II</li>
+		<li>KK_GeneSeed_III</li>
+		<li>KK_GeneSeed_IV</li>
+		<li>KK_GeneSeed_V</li>
+		<li>KK_GeneSeed_VI</li>
+		<li>KK_GeneSeed_VII</li>
+		<li>KK_GeneSeed_VIII</li>
+		<li>KK_GeneSeed_IX</li>
+		<li>KK_GeneSeed_X</li>
+		<li>KK_GeneSeed_XI</li>
+		<li>KK_GeneSeed_XII</li>
+		<li>KK_GeneSeed_XIII</li>
+		<li>KK_GeneSeed_XIV</li>
+		<li>KK_GeneSeed_XV</li>
+		<li>KK_GeneSeed_XVI</li>
+		<li>KK_GeneSeed_XVII</li>
+		<li>KK_GeneSeed_XVIII</li>
+		<li>KK_GeneSeed_XIX</li>
+		<li>KK_GeneSeed_XX</li>
+	</exclusionTags -->
+	
+    <displayOrderInCategory>20</displayOrderInCategory>
   </GeneDef>
 </Defs>

@@ -118,14 +118,14 @@
 			<li>Hair_DarkBlack</li>
 
 			<!-- 2/-2 Aptitude -->
-			<!-- li>AptitudeStrong_Plants</li>
-			<li>AptitudeStrong_Medicine</li>
-			<li>AptitudeTerrible_Crafting</li -->
+			<li>AptitudeRemarkable_Plants</li>
+			<li>AptitudePoor_Medicine</li>
+			<li>AptitudePoor_Crafting</li>
 
 			<!-- 3 Uniques -->
-			<!-- li>ToxResist_Total</li>
+			<li>ToxResist_Total</li>
 			<li>Pain_Reduced</li>
-			<li>MoveSpeed_Slow</li -->
+			<li>MoveSpeed_Slow</li>
 		</genes>
 	</XenotypeDef>
 

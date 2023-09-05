@@ -22,12 +22,12 @@
     <defName>KK_GeneSeed_III</defName>
     <label>Emperor's Children gene-seed</label>
     <labelShortAdj>IIIrd gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Emperor's Children.</description>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Emperor's Children.</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.94, 0.61, 0.71)</iconColor>
 	
-	<biostatCpx>2</biostatCpx>
-	<biostatMet>-2	</biostatMet>
+	<biostatCpx>11</biostatCpx>
+	<biostatMet>-16</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
 		<li>Age will slow to near immortaility.</li>
@@ -54,15 +54,24 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
 	
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
+		</li>
+		<li>
+			<def>KK_Trait_III</def>
 		</li>
 		<li>
 			<def>Masochist</def>
@@ -94,7 +103,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>3</displayOrderInCategory>
   </GeneDef>
 
   <!-- 8th - Night Lords -->
@@ -102,11 +111,11 @@
     <defName>KK_GeneSeed_VIII</defName>
     <label>Night Lords gene-seed</label>
     <labelShortAdj>VIIIth gene-seed</labelShortAdj>
-    <description>[KK] This gene implants a pawn with the Astartes Gene-Seed of the Night Lords.</description>
+    <description>This gene implants a pawn with the Astartes Gene-Seed of the Night Lords.</description>
 	<iconPath>UI/Icons/Genes/KK_GeneSeed_Default</iconPath>
     <iconColor>(0.44, 0.46, 0.58)</iconColor>
 	
-	<biostatCpx>3</biostatCpx>
+	<biostatCpx>12</biostatCpx>
 	<biostatMet>-7</biostatMet>
 	<customEffectDescriptions>
 		<li>Immunity to age-related illnesses.</li>
@@ -134,11 +143,17 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
 	
 	<forcedTraits>
 		<li>
@@ -174,7 +189,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>8</displayOrderInCategory>
   </GeneDef>
 
   <!-- 12th - World Eaters -->
@@ -214,11 +229,17 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
 	
 	<forcedTraits>
 		<li>
@@ -254,7 +275,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>12</displayOrderInCategory>
   </GeneDef>
 
   <!-- 14th - Death Guard -->
@@ -294,18 +315,25 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
 	
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
 		</li>
 		<li>
-			<def>KK_Trait_DeathGuard</def>
+			<def>Beauty</def>
+			<degree>-2</degree>
 		</li>
 	</forcedTraits>
 
@@ -334,7 +362,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>14</displayOrderInCategory>
   </GeneDef>
 
   <!-- 15th - Thousand Sons -->
@@ -374,11 +402,17 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
 	
 	<forcedTraits>
 		<li>
@@ -411,7 +445,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>15</displayOrderInCategory>
   </GeneDef>
 
   <!-- 16th - Sons of Horus -->
@@ -451,18 +485,21 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
 	
 	<forcedTraits>
 		<li>
 			<def>KK_Astartes</def>
-		</li>
-		<li>
-			<def>Immunity</def>
 		</li>
 	</forcedTraits>
 
@@ -491,7 +528,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>16</displayOrderInCategory>
   </GeneDef>
 
   <!-- 17th - Word Bearers -->
@@ -531,11 +568,17 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
 	
 	<forcedTraits>
 		<li>
@@ -568,7 +611,7 @@
 		<li>KK_GeneSeed_XX</li>
 	</exclusionTags -->
 	
-    <displayOrderInCategory>19</displayOrderInCategory>
+    <displayOrderInCategory>17</displayOrderInCategory>
   </GeneDef>
 
   <!-- 19th - Raven Guard -->
@@ -608,11 +651,17 @@
       <li>HeartArteryBlockage</li>
     </hediffGiversCannotGive>
 
+	<!-- Bonuses -->
+    <painFactor>0.25</painFactor>
     <statFactors>
-		<MeleeDamageFactor>2.0</MeleeDamageFactor>
+		<InjuryHealingFactor>0.25</InjuryHealingFactor>
+		<MeleeDamageFactor>1.5</MeleeDamageFactor>
 		<RestFallRateFactor>0.5</RestFallRateFactor>
 		<Fertility>0</Fertility>
 	</statFactors>
+	<statOffsets>
+		<ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+	</statOffsets>
 	
 	<forcedTraits>
 		<li>

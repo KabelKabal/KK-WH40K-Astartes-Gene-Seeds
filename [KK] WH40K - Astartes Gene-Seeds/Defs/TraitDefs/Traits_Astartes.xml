@@ -13,51 +13,51 @@
 		<skillGains>
 			<li>
 				<key>Shooting</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 			<li>
 				<key>Melee</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 			<li>
 				<key>Construction</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 			<li>
 				<key>Mining</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 			<li>
 				<key>Cooking</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 			<li>
 				<key>Plants</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 			<li>
 				<key>Animals</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 			<li>
 				<key>Crafting</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 			<li>
 				<key>Artistic</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 			<li>
 				<key>Medicine</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 			<li>
 				<key>Social</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 			<li>
 				<key>Intellectual</key>
-				<value>6</value>
+				<value>8</value>
 			</li>
 
 		</skillGains>
@@ -66,24 +66,5 @@
       </li>    
     </degreeDatas>
   </TraitDef>
-
-	<!-- 3rd - Emperor's Children -->
-  <!-- TraitDef>
-    <defName>KK_Trait_III</defName>
-    <commonality>0</commonality>
-    <degreeDatas>
-      <li>
-        <label>III</label>
-        <description>[PAWN_nameDef] is a member of the 3rd Legion - the Emperor's Children.</description>
-        <degree>1</degree>
-
-		<skillGains>
-		</skillGains>
-		
-		<statOffsets>
-		</statOffsets>
-      </li>    
-    </degreeDatas>
-  </TraitDef -->
-
+  
 </Defs>

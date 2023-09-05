@@ -156,8 +156,8 @@
 
 			<!-- 3 Uniques -->
 			<li>AnimalWarcall</li>
+			<li>MinTemp_LargeDecrease</li>
 			<li>Aggression_HyperAggressive</li>
-			<li>Instability_Mild</li>
 		</genes>
 	</XenotypeDef>
 
@@ -321,6 +321,38 @@
 		</genes>
 	</XenotypeDef>
 
+	<!-- 13th - Macraggean - Ultramarines	 -->
+	<XenotypeDef>
+		<defName>Macraggean</defName>
+		<label>macraggean</label>
+		<description>Macraggeans are the heroic sons of Roboute Guilliman - the sentinels of order assembled on Macragge by the Ultramarines.
+		</description>
+		<descriptionShort>Macraggeans are the heroic sons of Roboute Guilliman - the sentinels of order assembled on Macragge by the Ultramarines.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_XIII</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_SouthEurope</li>
+			<li>Hair_Blonde</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeStrong_Construction</li>
+			<li>AptitudeStrong_Plants</li>
+			<li>AptitudeTerrible_Animals</li>
+
+			<!-- 3 Uniques -->
+			<li>MinTemp_SmallIncrease</li>
+			<li>MaxTemp_SmallIncrease</li>
+			<li>Robust</li>
+		</genes>
+	</XenotypeDef>
+
 	<!-- 14th - Barbarusian - Death Guard -->
 	<XenotypeDef>
 		<defName>Barbarusian</defName>
@@ -449,6 +481,38 @@
 		</genes>
 	</XenotypeDef>
 
+	<!-- 18th - Nocturnean - Salamanders	 -->
+	<XenotypeDef>
+		<defName>Nocturnean</defName>
+		<label>nocturnean</label>
+		<description>Nocturneans are the fiery sons of Vulkan - the good-hearted saviours forged on Nocturne by the Salamanders.
+		</description>
+		<descriptionShort>Nocturneans are the fiery sons of Vulkan - the good-hearted saviours forged on Nocturne by the Salamanders.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_XVIII</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_SouthAfrica</li>
+			<li>Hair_DarkBlack</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeRemarkable_Crafting</li>
+			<li>AptitudePoor_Shooting</li>
+			<li>AptitudePoor_Medicine</li>
+
+			<!-- 3 Uniques -->
+			<li>MaxTemp_LargeIncrease</li>
+			<li>KindInstinct</li>
+			<li>MinTemp_SmallDecrease</li>
+		</genes>
+	</XenotypeDef>
+
 	<!-- 19th - Lycaean - Raven Guard -->
 	<XenotypeDef>
 		<defName>Lycaean</defName>
@@ -480,4 +544,31 @@
 			<li>UVSensitivity_Mild</li>
 		</genes>
 	</XenotypeDef>
+
+	<!-- 20th - Cypherite - Alpha Legion -->
+	<XenotypeDef>
+		<defName>Cypherite</defName>
+		<label>cypherite</label>
+		<description>Cypherites are the unamed sons of Alpharius and Omegon - scatterings of unknown agents gathered from all backgrounds by the Allpha Legion.
+		</description>
+		<descriptionShort>Cypherites are the unamed sons of Alpharius and Omegon - scatterings of unknown agents gathered from all backgrounds by the Allpha Legion.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_XX</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+
+			<!-- 3 Uniques -->
+			<li>DarkVision</li>
+			<li>MoveSpeed_Quick</li>
+			<li>UVSensitivity_Mild</li>
+		</genes>
+	</XenotypeDef>
+
+
 </Defs>

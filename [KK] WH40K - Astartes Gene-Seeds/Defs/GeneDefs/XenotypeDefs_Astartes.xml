@@ -129,6 +129,70 @@
 		</genes>
 	</XenotypeDef>
 
+	<!-- 6th - Fenrisian  - Space Wolves -->
+	<XenotypeDef>
+		<defName>Fenrisian</defName>
+		<label>fenrisian</label>
+		<description>Fenrisians are the feral sons of Leman Russ - the vicious wolfmen hailing from Fenris by the Space Wolves.
+		</description>
+		<descriptionShort>Fenrisians are the feral sons of Leman Russ - the vicious wolfmen hailing from Fenris by the Space Wolves.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_VI</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_NorthEurope</li>
+			<li>Hair_Blonde</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeStrong_Melee</li>
+			<li>AptitudeStrong_Animals</li>
+			<li>AptitudeTerrible_Medicine</li>
+
+			<!-- 3 Uniques -->
+			<li>AnimalWarcall</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>Instability_Mild</li>
+		</genes>
+	</XenotypeDef>
+
+	<!-- 7th - Inwitite  - Imperial Fists -->
+	<XenotypeDef>
+		<defName>Inwitite</defName>
+		<label>inwitite</label>
+		<description>Inwitites are the fortified sons of Rogal Dorn - the valiant vanguard formed from Inwit by the Imperial Fists.
+		</description>
+		<descriptionShort>Inwitites are the fortified sons of Rogal Dorn - the valiant vanguard formed from Inwit by the Imperial Fists.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_VII</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_NorthEurope</li>
+			<li>Hair_SnowWhite</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeRemarkable_Construction</li>
+			<li>AptitudePoor_Melee</li>
+			<li>AptitudePoor_Animals</li>
+
+			<!-- 3 Uniques -->
+			<li>Robust</li>
+			<li>Pain_Reduced</li>
+			<li>WoundHealing_Slow</li>
+		</genes>
+	</XenotypeDef>
+
 	<!-- 8th - Nostraman - Night Lords -->
 	<XenotypeDef>
 		<defName>Nostraman</defName>
@@ -158,6 +222,70 @@
 			<li>DarkVision</li>
 			<li>KillThirst</li>
 			<li>Mood_Pessimist</li>
+		</genes>
+	</XenotypeDef>
+
+	<!-- 9th - Baalite  - Blood Angels -->
+	<XenotypeDef>
+		<defName>Baalite</defName>
+		<label>baalite</label>
+		<description>Baalites are the bloodsoaked sons of Sanguinius - the redclad hosts drained from Baal by the Blood Angels.
+		</description>
+		<descriptionShort>Baalites are the bloodsoaked sons of Sanguinius - the redclad hosts drained from Baal by the Blood Angels.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_IX</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_NorthEurope</li>
+			<li>Hair_Blonde</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeStrong_Melee</li>
+			<li>AptitudeStrong_Cooking</li>
+			<li>AptitudeTerrible_Medicine</li>
+
+			<!-- 3 Uniques -->
+			<li>Bloodfeeder</li>
+			<li>Hemogenic</li>
+			<li>Instability_Major</li>
+		</genes>
+	</XenotypeDef>
+
+	<!-- 10th - Medusan - Iron Hands -->
+	<XenotypeDef>
+		<defName>Medusan</defName>
+		<label>medusan</label>
+		<description>Medusans are the hardy sons of Ferrus Manus - the armoured legions steeled in Medusa by the Iron Hands.
+		</description>
+		<descriptionShort>Medusans are the hardy sons of Ferrus Manus - the armoured legions steeled in Medusa by the Iron Hands.
+		</descriptionShort>
+		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
+		<inheritable>true</inheritable>
+		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
+		<nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+		<chanceToUseNameMaker>1</chanceToUseNameMaker>
+		<genes>
+			<li>KK_GeneSeed_X</li>
+			<!-- Cosmetics -->
+			<li>Body_Hulk</li>
+			<li>KK_Skin_SouthEurope</li>
+			<li>Hair_ReddishBrown</li>
+
+			<!-- 2/-2 Aptitude -->
+			<li>AptitudeStrong_Shooting</li>
+			<li>AptitudeStrong_Crafting</li>
+			<li>AptitudeTerrible_Artistic</li>
+
+			<!-- 3 Uniques -->
+			<li>Robust</li>
+			<li>Pain_Reduced</li>
+			<li>MoveSpeed_Slow</li>
 		</genes>
 	</XenotypeDef>
 

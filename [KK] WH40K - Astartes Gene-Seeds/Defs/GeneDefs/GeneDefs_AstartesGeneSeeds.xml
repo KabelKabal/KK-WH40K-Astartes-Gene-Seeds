@@ -418,7 +418,8 @@
 			<def>KK_Astartes</def>
 		</li>
 		<li>
-			<def>Masochist</def>
+			<def>ShootingAccuracy</def>
+			<degree>-2</degree>
 		</li>
 	</forcedTraits>
 
@@ -504,7 +505,8 @@
 			<def>KK_Astartes</def>
 		</li>
 		<li>
-			<def>Masochist</def>
+			<def>Nerves</def>
+			<degree>1</degree>
 		</li>
 	</forcedTraits>
 
@@ -676,7 +678,8 @@
 			<def>KK_Astartes</def>
 		</li>
 		<li>
-			<def>Masochist</def>
+			<def>Beauty</def>
+			<degree>2</degree>
 		</li>
 	</forcedTraits>
 
@@ -762,7 +765,8 @@
 			<def>KK_Astartes</def>
 		</li>
 		<li>
-			<def>Masochist</def>
+			<def>Nerves</def>
+			<degree>2</degree>
 		</li>
 	</forcedTraits>
 
@@ -1107,7 +1111,7 @@
 			<def>KK_Astartes</def>
 		</li>
 		<li>
-			<def>Asexual</def>
+			<def>TooSmart</def>
 		</li>
 	</forcedTraits>
 

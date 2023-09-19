@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- KK Categories -->
+
+  <IdeoPresetCategoryDef>
+    <defName>Loyalist</defName>
+    <label>loyalist</label>
+    <description>Beliefs and doctrines commonly found across the Loyalist Astartes and the Imperium of Man.</description>
+    <groupLabel>Preset ideoligions</groupLabel>
+  </IdeoPresetCategoryDef>
+  
+  <IdeoPresetCategoryDef>
+    <defName>Traitor</defName>
+    <label>traitor</label>
+    <description>Beliefs and doctrines commonly found in the Traitor Astartes and the Eye of Terror.</description>
+    <groupLabel>Preset ideoligions</groupLabel>
+  </IdeoPresetCategoryDef>
+
+  <!-- Loyalist Ideas -->
+
+  <IdeoPresetDef>
+    <defName>Loyalist_Default</defName>
+    <label>codex astartes</label>
+    <description>The core doctrine followed by all compliant Legiones Astarters Chapters.</description>
+    <categoryDef>Loyalist</categoryDef>
+    <memes>
+      <li>Supremacist</li>
+      <li>HumanPrimacy</li>
+      <li>MaleSupremacy</li>
+      <li>Proselytizer</li>
+    </memes>
+  </IdeoPresetDef>
+
+  <!-- Traitor Ideas -->
+
+  <IdeoPresetDef>
+    <defName>Traitor_Default</defName>
+    <label>chaos undivided</label>
+    <description>The collective worship of the Ruinous Powers beyond the Warp.</description>
+    <categoryDef>Traitor</categoryDef>
+    <memes>
+      <li>Supremacist</li>
+      <li>HumanPrimacy</li>
+      <li>MaleSupremacy</li>
+      <li>Raider</li>
+    </memes>
+  </IdeoPresetDef>
+
+</Defs>

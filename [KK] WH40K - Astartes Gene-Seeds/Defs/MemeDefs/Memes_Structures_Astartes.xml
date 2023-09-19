@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Loyalist Chapter -->
+  <MemeDef>
+    <defName>Structure_LoyalistChapter</defName>
+    <label>imperial cult</label>
+    <description>The structure of the Imperial Cult - widespread across the Imperium in veneration of the God-Emperor.</description>
+    <category>Structure</category>
+    <iconPath>UI/Structures/OriginChristian</iconPath>
+    <impact>0</impact>
+
+    <deityNameMakerOverride>DietyNameImperial</deityNameMakerOverride>
+    <deityTypeMakerOverride>DietyTypeImperial</deityTypeMakerOverride>
+
+    <worshipRoomLabel>temple</worshipRoomLabel>
+    <randomizationSelectionWeightFactor>1</randomizationSelectionWeightFactor>
+    <deityCount>1</deityCount>
+    <requireAnyRitualSeat><li>Pew</li></requireAnyRitualSeat>
+    <groupDef>Theist_Embodied</groupDef>
+    <generalRules>
+      <rulesStrings>
+        <!-- li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
+        <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li -->
+        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
+        <!-- li>r_ideoName(p=99)->[packIdeoName]</li -->
+        <li>memeLeaderNoun->govenor</li>
+        <li>memeMoralist->ecclesiarch</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+	<patterns>
+		<li><def>TheistMyth</def></li>
+		<li><def>TheistFounder</def></li>
+	</patterns>
+	<constants>
+		<li><key>structure_theist</key><value>true</value></li>
+	</constants>
+    </descriptionMaker>
+    <symbolPacks>
+		<li>
+			<ideoName>Imperial Cult</ideoName>
+			<adjective>Truth</adjective>
+			<member>Imperial</member>
+			<prefix>true</prefix>
+		</li>
+    </symbolPacks>
+    <thingStyleCategories>
+      <li>
+        <category>Christian</category>
+        <priority>4</priority>
+      </li>
+    </thingStyleCategories>
+  </MemeDef>
+
+	<!-- Imperial Cult Name / Type -->
+  <RulePackDef>
+    <defName>DietyNameImperial</defName>
+    <include>
+		<li>GlobalUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+		<li>r_deityName(p=3)->The God-Emperor</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>DietyTypeImperial</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_deityType->Master of [all]</li>
+        <li>r_deityType->Emperor of [all]</li>
+
+        <li>all->mankind</li>
+        <li>all->humanity</li>
+        <li>all->the imperium</li>
+		
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

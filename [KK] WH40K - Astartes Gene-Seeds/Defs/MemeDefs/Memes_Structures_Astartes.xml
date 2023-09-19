@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- Loyalist Chapter -->
+	<!-- Imperial Cult -->
   <MemeDef>
-    <defName>Structure_LoyalistChapter</defName>
+    <defName>Structure_ImperialCult</defName>
     <label>imperial cult</label>
     <description>The structure of the Imperial Cult - widespread across the Imperium in veneration of the God-Emperor.</description>
     <category>Structure</category>
-    <iconPath>UI/Structures/OriginChristian</iconPath>
+    <iconPath>UI/Structures/KK_ImperialCult</iconPath>
     <impact>0</impact>
 
     <deityNameMakerOverride>DietyNameImperial</deityNameMakerOverride>
     <deityTypeMakerOverride>DietyTypeImperial</deityTypeMakerOverride>
 
-    <worshipRoomLabel>temple</worshipRoomLabel>
+    <worshipRoomLabel>cathedral</worshipRoomLabel>
     <randomizationSelectionWeightFactor>1</randomizationSelectionWeightFactor>
     <deityCount>1</deityCount>
     <requireAnyRitualSeat><li>Pew</li></requireAnyRitualSeat>
     <groupDef>Theist_Embodied</groupDef>
     <generalRules>
       <rulesStrings>
-        <!-- li>r_ideoName(p=99)->[globalAdjective] [packIdeoName]</li>
-        <li>r_ideoName(p=99)->[packIdeoName] [memeAdjective]</li -->
-        <li>r_ideoName(p=99)->[packAdjective] [packIdeoName]</li>
-        <!-- li>r_ideoName(p=99)->[packIdeoName]</li -->
-        <li>memeLeaderNoun->govenor</li>
-        <li>memeMoralist->ecclesiarch</li>
+        <li>memeCreed(p=99)->truth</li>
+        <li>memeCreed(P=99)->creed</li>
+        <li>memeHyphenPrefix(p=3)->neo</li>
+        <li>memeHyphenPrefix(p=3)->high</li>
+        <li>memeHyphenPrefix(p=3)->hive</li>
+        <li>memeLeaderNoun(p=99)->govenor</li>
+        <li>memeMoralist(p=99))->ecclesiarch</li>
       </rulesStrings>
     </generalRules>
     <descriptionMaker>
@@ -40,7 +41,7 @@
     <symbolPacks>
 		<li>
 			<ideoName>Imperial Cult</ideoName>
-			<adjective>Truth</adjective>
+			<adjective>Imperial</adjective>
 			<member>Imperial</member>
 			<prefix>true</prefix>
 		</li>
@@ -80,5 +81,65 @@
       </rulesStrings>
     </rulePack>
   </RulePackDef>
+
+	<!-- Chaos Undivided -->
+  <MemeDef>
+    <defName>Structure_ChaosUndivided</defName>
+    <label>chaos undivided</label>
+    <description>The structure of Chaos Undivided - widespread across the Eye in worship of the Ruinous Powers.</description>
+    <category>Structure</category>
+    <iconPath>UI/Structures/KK_ChaosUndivided</iconPath>
+    <impact>0</impact>
+	
+    <worshipRoomLabel>temple</worshipRoomLabel>
+    <randomizationSelectionWeightFactor>1</randomizationSelectionWeightFactor>
+    <deityCount>4</deityCount>
+    <requireAnyRitualSeat><li>KneelSheet</li></requireAnyRitualSeat>
+    <groupDef>Theist_Embodied</groupDef>
+    <generalRules>
+      <rulesStrings>
+        <li>memeCreed(p=99)->cult</li>
+        <li>memeCreed(P=99)->horde</li>
+        <li>memeCreed(P=99)->cabal</li>
+        <li>memeCreed(P=99)->host</li>
+        <li>memeHyphenPrefix(p=3)->cursed</li>
+        <li>memeHyphenPrefix(p=3)->lost</li>
+        <li>memeHyphenPrefix(p=3)->corrupt</li>
+        <li>memeLeaderNoun(p=99)->warlord</li>
+        <li>memeMoralist(p=99)->sorcerer</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+	<patterns>
+		<li><def>TheistMyth</def></li>
+		<li><def>TheistFounder</def></li>
+	</patterns>
+	<constants>
+		<li><key>structure_theist</key><value>true</value></li>
+	</constants>
+    </descriptionMaker>
+    <symbolPacks>
+		<li>
+			<ideoName>Chaos Undivided</ideoName>
+			<adjective>Cultist</adjective>
+			<member>Cultist</member>
+			<prefix>true</prefix>
+		</li>
+    </symbolPacks>
+
+    <fixedDeityNameTypes>
+      <li><name>Khorne</name><type>The Blood God</type></li>
+      <li><name>Tzeentch</name><type>The Changer of the Ways</type></li>
+      <li><name>Nurgle</name><type>The Great Lord of Decay</type></li>
+      <li><name>Slaanesh</name><type>The Prince of Excess</type></li>
+    </fixedDeityNameTypes>
+
+    <thingStyleCategories>
+      <li>
+        <category>Morbid</category>
+        <priority>4</priority>
+      </li>
+    </thingStyleCategories>
+  </MemeDef>
 
 </Defs>

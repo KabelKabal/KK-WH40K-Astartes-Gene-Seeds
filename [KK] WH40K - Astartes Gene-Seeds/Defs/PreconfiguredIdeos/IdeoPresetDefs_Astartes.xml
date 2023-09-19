@@ -22,12 +22,12 @@
   <IdeoPresetDef>
     <defName>Loyalist_Default</defName>
     <label>codex astartes</label>
-    <description>The core doctrine followed by all compliant Legiones Astarters Chapters.</description>
+    <description>The core Chapter doctrine of the Loyalist Astartes.</description>
     <categoryDef>Loyalist</categoryDef>
     <memes>
       <li>Supremacist</li>
       <li>HumanPrimacy</li>
-      <li>MaleSupremacy</li>
+      <li>Transhumanist</li>
       <li>Proselytizer</li>
     </memes>
   </IdeoPresetDef>
@@ -36,13 +36,13 @@
 
   <IdeoPresetDef>
     <defName>Traitor_Default</defName>
-    <label>chaos undivided</label>
-    <description>The collective worship of the Ruinous Powers beyond the Warp.</description>
+    <label>traitor astartes</label>
+    <description>The core Chapter doctrine of the Traitor Astartes.</description>
     <categoryDef>Traitor</categoryDef>
     <memes>
       <li>Supremacist</li>
       <li>HumanPrimacy</li>
-      <li>MaleSupremacy</li>
+      <li>Transhumanist</li>
       <li>Raider</li>
     </memes>
   </IdeoPresetDef>

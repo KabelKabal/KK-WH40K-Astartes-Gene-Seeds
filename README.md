@@ -1,4 +1,6 @@
 # [KK] Warhammer 40K - Astartes Gene-Seeds
+## Current: v1.1 Codex release
+
 Official GitHub repo for KK's Warhammer 40K - Astartes Gene-Seeds mod for Rimworld.
 
 As the Horus Heresy rages across the galaxy, the Legions of the Imperium crashland on the Rim.
@@ -7,10 +9,10 @@ Declare your alleigence by playing a Legion, or make your own Legion with your c
 
 Let the die be cast.
 
-## v1.0: Initial Release
-## For Rimworld 1.4
+## [Initial v1.0 Foundation release]
+- Added 18 unique Astartes Gene-Seeds.
+- Added 18 unique Astartes Xenotypes (all known Legions).
 
-Initial v1.0 commit:
-Added 18 unique Astartes Gene-Seeds.
-Added 18 unique Astartes Xenotypes (all known Legions).
-All built in harmony with the vanilla Rimworld experience.
+## Author Notes
+
+All mods built in harmony with the vanilla Rimworld experience.

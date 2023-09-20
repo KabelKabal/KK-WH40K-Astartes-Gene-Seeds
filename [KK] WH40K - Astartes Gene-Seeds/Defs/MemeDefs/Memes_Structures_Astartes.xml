@@ -5,7 +5,7 @@
   <MemeDef>
     <defName>Structure_ImperialCult</defName>
     <label>imperial origin</label>
-    <description>This is a variant of the embodied theist structure. This ideoligion is a is a variation of the Imperial Cult. It may have very different precepts than those of normal worship of the God-Emperor, but its symbols are similar.</description>
+    <description>This is a variant of the embodied theist structure. This ideoligion is a variation of the Imperial Cult. It may have very different precepts than those of normal worship of the God-Emperor, but its symbols are similar.</description>
     <category>Structure</category>
     <iconPath>UI/Structures/KK_ImperialCult</iconPath>
     <impact>0</impact>
@@ -49,7 +49,7 @@
     <thingStyleCategories>
       <li>
         <category>KK_Imperial</category>
-        <priority>4</priority>
+        <priority>99</priority>
       </li>
     </thingStyleCategories>
   </MemeDef>
@@ -86,7 +86,7 @@
   <MemeDef>
     <defName>Structure_ChaosUndivided</defName>
     <label>chaos origin</label>
-    <description>This is a variant of the embodied theist structure. This ideoligion is a is a variation of Chaos Undivided. It may have very different precepts than those of normal worship of the Ruinous Powers, but its symbols are similar.</description>
+    <description>This is a variant of the embodied theist structure. This ideoligion is a variation of Chaos Undivided. It may have very different precepts than those of normal worship of the Ruinous Powers, but its symbols are similar.</description>
     <category>Structure</category>
     <iconPath>UI/Structures/KK_ChaosUndivided</iconPath>
     <impact>0</impact>
@@ -138,7 +138,7 @@
     <thingStyleCategories>
       <li>
         <category>KK_Chaos</category>
-        <priority>4</priority>
+        <priority>99</priority>
       </li>
     </thingStyleCategories>
   </MemeDef>

@@ -10,7 +10,7 @@
     <thingDefStyles>
       <li>
         <thingDef>Ideogram</thingDef>
-        <styleDef>Hindu_IdeogramA</styleDef>
+        <styleDef>Imperial_IdeogramA</styleDef>
       </li>
     </thingDefStyles>
   </StyleCategoryDef>
@@ -24,7 +24,7 @@
     <thingDefStyles>
       <li>
         <thingDef>Ideogram</thingDef>
-        <styleDef>Hindu_IdeogramA</styleDef>
+        <styleDef>Chaos_IdeogramA</styleDef>
       </li>
     </thingDefStyles>
   </StyleCategoryDef>

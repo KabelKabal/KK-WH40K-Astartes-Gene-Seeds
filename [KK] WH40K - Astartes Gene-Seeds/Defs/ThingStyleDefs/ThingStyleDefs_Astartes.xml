@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingStyleDef>
+    <defName>Imperial_IdeogramA</defName>
+    <graphicData>
+      <texPath>Things/Building/Misc/Ideogram/Imperial/Imperial_IdeogramA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+  
+  <ThingStyleDef>
+    <defName>Chaos_IdeogramA</defName>
+    <graphicData>
+      <texPath>Things/Building/Misc/Ideogram/Chaos/Chaos_IdeogramA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+
+</Defs>

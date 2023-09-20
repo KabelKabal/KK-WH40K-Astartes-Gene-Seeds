@@ -6,14 +6,14 @@
   <IdeoPresetCategoryDef>
     <defName>Loyalist</defName>
     <label>loyalist</label>
-    <description>Beliefs and doctrines commonly found across the Loyalist Astartes and the Imperium of Man.</description>
+    <description>Beliefs and doctrines commonly found among the Loyalist Astartes and the Imperium of Man.</description>
     <groupLabel>Preset ideoligions</groupLabel>
   </IdeoPresetCategoryDef>
   
   <IdeoPresetCategoryDef>
     <defName>Traitor</defName>
     <label>traitor</label>
-    <description>Beliefs and doctrines commonly found in the Traitor Astartes and the Eye of Terror.</description>
+    <description>Beliefs and doctrines commonly found among the Traitor Astartes and Chaos cultists.</description>
     <groupLabel>Preset ideoligions</groupLabel>
   </IdeoPresetCategoryDef>
 
@@ -21,14 +21,13 @@
 
   <IdeoPresetDef>
     <defName>Loyalist_Default</defName>
-    <label>codex astartes</label>
-    <description>The core Chapter doctrine of the Loyalist Astartes.</description>
+    <label>loyalist chapter</label>
+    <description>The general doctrine of a Loyalist Astartes Chapter.</description>
     <categoryDef>Loyalist</categoryDef>
     <memes>
       <li>Supremacist</li>
-      <li>HumanPrimacy</li>
-      <li>Transhumanist</li>
       <li>Proselytizer</li>
+      <li>HumanPrimacy</li>
     </memes>
   </IdeoPresetDef>
 
@@ -36,14 +35,13 @@
 
   <IdeoPresetDef>
     <defName>Traitor_Default</defName>
-    <label>traitor astartes</label>
-    <description>The core Chapter doctrine of the Traitor Astartes.</description>
+    <label>traitor chapter</label>
+    <description>The general doctrine of a Traitor Astartes Chapter.</description>
     <categoryDef>Traitor</categoryDef>
     <memes>
       <li>Supremacist</li>
-      <li>HumanPrimacy</li>
-      <li>Transhumanist</li>
       <li>Raider</li>
+	  <li>HumanPrimacy</li>
     </memes>
   </IdeoPresetDef>
 

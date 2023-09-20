@@ -1,5 +1,5 @@
 # [KK] Warhammer 40K - Astartes Gene-Seeds
-## Current: v1.1 Codex release
+## Current: v1.0 Foundation release
 
 Official GitHub repo for KK's Warhammer 40K - Astartes Gene-Seeds mod for Rimworld.
 

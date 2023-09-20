@@ -5,10 +5,8 @@
 	<XenotypeDef>
 		<defName>Calibanian</defName>
 		<label>calibanian</label>
-		<description>Calibanians are the grim sons of Lion El'Jonson - the courageous warriors elevated from Caliban by the Dark Angels.
-		</description>
-		<descriptionShort>Calibanians are the grim sons of Lion El'Jonson - the courageous warriors elevated from Caliban by the Dark Angels.
-		</descriptionShort>
+		<description>Calibanians are the grim sons of Lion El'Jonson - the courageous warriors elevated from Caliban by the Dark Angels.</description>
+		<descriptionShort>Calibanians are the grim sons of Lion El'Jonson - the courageous warriors elevated from Caliban by the Dark Angels.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -37,10 +35,8 @@
 	<XenotypeDef>
 		<defName>Chemosian</defName>
 		<label>chemosian</label>
-		<description>Chemosians are the beautiful sons of Fulgrim; the perfectionist hosts drawn from Chemos by the Emperor's Children.
-		</description>
-		<descriptionShort>Chemosians are the beautiful sons of Fulgrim; the perfectionist hosts drawn from Chemos by the Emperor's Children.
-		</descriptionShort>
+		<description>Chemosians are the beautiful sons of Fulgrim; the perfectionist hosts drawn from Chemos by the Emperor's Children.</description>
+		<descriptionShort>Chemosians are the beautiful sons of Fulgrim; the perfectionist hosts drawn from Chemos by the Emperor's Children.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -69,10 +65,8 @@
 	<XenotypeDef>
 		<defName>Olympian</defName>
 		<label>olympian</label>
-		<description>Olympians are the tough sons of Perturabo - the iron-willed warriors tempered from Olympia by the Iron Warriors.
-		</description>
-		<descriptionShort>Olympians are the tough sons of Perturabo - the iron-willed warriors tempered from Olympia by the Iron Warriors.
-		</descriptionShort>
+		<description>Olympians are the tough sons of Perturabo - the iron-willed warriors tempered from Olympia by the Iron Warriors.</description>
+		<descriptionShort>Olympians are the tough sons of Perturabo - the iron-willed warriors tempered from Olympia by the Iron Warriors.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -101,10 +95,8 @@
 	<XenotypeDef>
 		<defName>Chogorian</defName>
 		<label>chogorian</label>
-		<description>Chogorians are the free sons of Jaghatai Khan - the outriding nomads born of Chogoris by the White Scars.
-		</description>
-		<descriptionShort>Chogorians are the free sons of Jaghatai Khan - the outriding nomads born of Chogoris by the White Scars.
-		</descriptionShort>
+		<description>Chogorians are the free sons of Jaghatai Khan - the outriding nomads born of Chogoris by the White Scars.</description>
+		<descriptionShort>Chogorians are the free sons of Jaghatai Khan - the outriding nomads born of Chogoris by the White Scars.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -133,10 +125,8 @@
 	<XenotypeDef>
 		<defName>Fenrisian</defName>
 		<label>fenrisian</label>
-		<description>Fenrisians are the feral sons of Leman Russ - the vicious wolfmen hailing from Fenris by the Space Wolves.
-		</description>
-		<descriptionShort>Fenrisians are the feral sons of Leman Russ - the vicious wolfmen hailing from Fenris by the Space Wolves.
-		</descriptionShort>
+		<description>Fenrisians are the feral sons of Leman Russ - the vicious wolfmen hailing from Fenris by the Space Wolves.</description>
+		<descriptionShort>Fenrisians are the feral sons of Leman Russ - the vicious wolfmen hailing from Fenris by the Space Wolves.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -165,10 +155,8 @@
 	<XenotypeDef>
 		<defName>Inwitite</defName>
 		<label>inwitite</label>
-		<description>Inwitites are the fortified sons of Rogal Dorn - the valiant vanguard formed from Inwit by the Imperial Fists.
-		</description>
-		<descriptionShort>Inwitites are the fortified sons of Rogal Dorn - the valiant vanguard formed from Inwit by the Imperial Fists.
-		</descriptionShort>
+		<description>Inwitites are the fortified sons of Rogal Dorn - the valiant vanguard formed from Inwit by the Imperial Fists.</description>
+		<descriptionShort>Inwitites are the fortified sons of Rogal Dorn - the valiant vanguard formed from Inwit by the Imperial Fists.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -197,10 +185,8 @@
 	<XenotypeDef>
 		<defName>Nostraman</defName>
 		<label>nostraman</label>
-		<description>Nostramans are the sadistic sons of Konrad Curze; the murderers and criminal syndicates ripped from Nostramo by the Night Lords.
-		</description>
-		<descriptionShort>Nostramans are the sadistic sons of Konrad Curze; the murderers and criminal syndicates ripped from Nostramo by the Night Lords.
-		</descriptionShort>
+		<description>Nostramans are the sadistic sons of Konrad Curze; the murderers and criminal syndicates ripped from Nostramo by the Night Lords.</description>
+		<descriptionShort>Nostramans are the sadistic sons of Konrad Curze; the murderers and criminal syndicates ripped from Nostramo by the Night Lords.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -229,10 +215,8 @@
 	<XenotypeDef>
 		<defName>Baalite</defName>
 		<label>baalite</label>
-		<description>Baalites are the bloodsoaked sons of Sanguinius - the redclad hosts drained from Baal by the Blood Angels.
-		</description>
-		<descriptionShort>Baalites are the bloodsoaked sons of Sanguinius - the redclad hosts drained from Baal by the Blood Angels.
-		</descriptionShort>
+		<description>Baalites are the bloodsoaked sons of Sanguinius - the redclad hosts drained from Baal by the Blood Angels.</description>
+		<descriptionShort>Baalites are the bloodsoaked sons of Sanguinius - the redclad hosts drained from Baal by the Blood Angels.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -261,10 +245,8 @@
 	<XenotypeDef>
 		<defName>Medusan</defName>
 		<label>medusan</label>
-		<description>Medusans are the hardy sons of Ferrus Manus - the armoured legions steeled in Medusa by the Iron Hands.
-		</description>
-		<descriptionShort>Medusans are the hardy sons of Ferrus Manus - the armoured legions steeled in Medusa by the Iron Hands.
-		</descriptionShort>
+		<description>Medusans are the hardy sons of Ferrus Manus - the armoured legions steeled in Medusa by the Iron Hands.</description>
+		<descriptionShort>Medusans are the hardy sons of Ferrus Manus - the armoured legions steeled in Medusa by the Iron Hands.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -293,10 +275,8 @@
 	<XenotypeDef>
 		<defName>Nagrakali</defName>
 		<label>nagrakali</label>
-		<description>Nagrakali are the bloodied sons of Angron; a loose collection of tribes elevated from the World Eaters' conquered worlds.
-		</description>
-		<descriptionShort>Nagrakali are the bloodied sons of Angron; a loose collection of tribes elevated from the World Eaters' conquered worlds.
-		</descriptionShort>
+		<description>Nagrakali are the bloodied sons of Angron; a loose collection of tribes elevated from the World Eaters' conquered worlds.</description>
+		<descriptionShort>Nagrakali are the bloodied sons of Angron; a loose collection of tribes elevated from the World Eaters' conquered worlds.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -325,10 +305,8 @@
 	<XenotypeDef>
 		<defName>Macraggean</defName>
 		<label>macraggean</label>
-		<description>Macraggeans are the heroic sons of Roboute Guilliman - the sentinels of order assembled on Macragge by the Ultramarines.
-		</description>
-		<descriptionShort>Macraggeans are the heroic sons of Roboute Guilliman - the sentinels of order assembled on Macragge by the Ultramarines.
-		</descriptionShort>
+		<description>Macraggeans are the heroic sons of Roboute Guilliman - the sentinels of order assembled on Macragge by the Ultramarines.</description>
+		<descriptionShort>Macraggeans are the heroic sons of Roboute Guilliman - the sentinels of order assembled on Macragge by the Ultramarines.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -357,10 +335,8 @@
 	<XenotypeDef>
 		<defName>Barbarusian</defName>
 		<label>barbarusian</label>
-		<description>Barbarusians are the diseased sons of Mortarion; the filth-riddled legions assembled from Barbarus by the Death Guard.
-		</description>
-		<descriptionShort>Barbarusians are the diseased sons of Mortarion; the filth-riddled legions assembled from Barbarus by the Death Guard.
-		</descriptionShort>
+		<description>Barbarusians are the diseased sons of Mortarion; the filth-riddled legions assembled from Barbarus by the Death Guard.</description>
+		<descriptionShort>Barbarusians are the diseased sons of Mortarion; the filth-riddled legions assembled from Barbarus by the Death Guard.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -389,10 +365,8 @@
 	<XenotypeDef>
 		<defName>Prosperine</defName>
 		<label>prosperine</label>
-		<description>Prosperine are the mystical sons of Magnus the Red; the scattered cabals of sorcerers pulled to Prospero by the Thousand Sons.
-		</description>
-		<descriptionShort>Prosperine are the mystical sons of Magnus the Red; the scattered cabals of sorcerers pulled to Prospero by the Thousand Sons.
-		</descriptionShort>
+		<description>Prosperine are the mystical sons of Magnus the Red; the scattered cabals of sorcerers pulled to Prospero by the Thousand Sons.</description>
+		<descriptionShort>Prosperine are the mystical sons of Magnus the Red; the scattered cabals of sorcerers pulled to Prospero by the Thousand Sons.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -421,10 +395,8 @@
 	<XenotypeDef>
 		<defName>Cthonian</defName>
 		<label>cthonian</label>
-		<description>Cthonians are the fanatic sons of Horus Lupercal; the vanguard force united on Cthonia by the Sons of Horus.
-		</description>
-		<descriptionShort>Cthonians are the fanatic sons of Horus Lupercal; the vanguard force united on Cthonia by the Sons of Horus.
-		</descriptionShort>
+		<description>Cthonians are the fanatic sons of Horus Lupercal; the vanguard force united on Cthonia by the Sons of Horus.</description>
+		<descriptionShort>Cthonians are the fanatic sons of Horus Lupercal; the vanguard force united on Cthonia by the Sons of Horus.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -453,10 +425,8 @@
 	<XenotypeDef>
 		<defName>Colchisian</defName>
 		<label>colchisian</label>
-		<description>Colchisians are the blessed sons of Lorgar Aurellian; chosen zealots drawn by the Word Bearers from Colchis.
-		</description>
-		<descriptionShort>Colchisians are the blessed sons of Lorgar Aurellian; chosen zealots drawn by the Word Bearers from Colchis.
-		</descriptionShort>
+		<description>Colchisians are the blessed sons of Lorgar Aurellian; chosen zealots drawn by the Word Bearers from Colchis.</description>
+		<descriptionShort>Colchisians are the blessed sons of Lorgar Aurellian; chosen zealots drawn by the Word Bearers from Colchis.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -485,10 +455,8 @@
 	<XenotypeDef>
 		<defName>Nocturnean</defName>
 		<label>nocturnean</label>
-		<description>Nocturneans are the fiery sons of Vulkan - the good-hearted saviours forged on Nocturne by the Salamanders.
-		</description>
-		<descriptionShort>Nocturneans are the fiery sons of Vulkan - the good-hearted saviours forged on Nocturne by the Salamanders.
-		</descriptionShort>
+		<description>Nocturneans are the fiery sons of Vulkan - the good-hearted saviours forged on Nocturne by the Salamanders.</description>
+		<descriptionShort>Nocturneans are the fiery sons of Vulkan - the good-hearted saviours forged on Nocturne by the Salamanders.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -517,10 +485,8 @@
 	<XenotypeDef>
 		<defName>Lycaean</defName>
 		<label>lycaean</label>
-		<description>Lycaeans are the mysterious sons of Corvus Corax; a just deliverance of the Lycaean and Terran born sons of the Raven Guard.
-		</description>
-		<descriptionShort>Lycaeans are the mysterious sons of Corvus Corax; a just deliverance of the Lycaean and Terran born sons of the Raven Guard.
-		</descriptionShort>
+		<description>Lycaeans are the mysterious sons of Corvus Corax; a just deliverance of the Lycaean and Terran born sons of the Raven Guard.</description>
+		<descriptionShort>Lycaeans are the mysterious sons of Corvus Corax; a just deliverance of the Lycaean and Terran born sons of the Raven Guard.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -549,10 +515,8 @@
 	<XenotypeDef>
 		<defName>Cypherite</defName>
 		<label>cypherite</label>
-		<description>Cypherites are the unamed sons of Alpharius and Omegon - scatterings of unknown agents gathered from all backgrounds by the Allpha Legion.
-		</description>
-		<descriptionShort>Cypherites are the unamed sons of Alpharius and Omegon - scatterings of unknown agents gathered from all backgrounds by the Allpha Legion.
-		</descriptionShort>
+		<description>Cypherites are the unamed sons of Alpharius and Omegon - scatterings of unknown agents gathered from all backgrounds by the Allpha Legion.</description>
+		<descriptionShort>Cypherites are the unamed sons of Alpharius and Omegon - scatterings of unknown agents gathered from all backgrounds by the Allpha Legion.</descriptionShort>
 		<iconPath>UI/Icons/Xenotypes/KK_Astartes</iconPath>
 		<inheritable>true</inheritable>
 		<nameMaker>NamerPersonDirtmole_Male</nameMaker>
@@ -569,6 +533,5 @@
 			<li>UVSensitivity_Mild</li>
 		</genes>
 	</XenotypeDef>
-
 
 </Defs>

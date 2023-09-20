@@ -4,8 +4,8 @@
 	<!-- Imperial Cult -->
   <MemeDef>
     <defName>Structure_ImperialCult</defName>
-    <label>imperial cult</label>
-    <description>The structure of the Imperial Cult - widespread across the Imperium in veneration of the God-Emperor.</description>
+    <label>imperial origin</label>
+    <description>This is a variant of the embodied theist structure. This ideoligion is a is a variation of the Imperial Cult. It may have very different precepts than those of normal worship of the God-Emperor, but its symbols are similar.</description>
     <category>Structure</category>
     <iconPath>UI/Structures/KK_ImperialCult</iconPath>
     <impact>0</impact>
@@ -21,12 +21,12 @@
     <generalRules>
       <rulesStrings>
         <li>memeCreed(p=99)->truth</li>
-        <li>memeCreed(P=99)->creed</li>
+        <li>memeCreed(p=99)->creed</li>
         <li>memeHyphenPrefix(p=3)->neo</li>
         <li>memeHyphenPrefix(p=3)->high</li>
         <li>memeHyphenPrefix(p=3)->hive</li>
         <li>memeLeaderNoun(p=99)->govenor</li>
-        <li>memeMoralist(p=99))->ecclesiarch</li>
+        <li>memeMoralist(p=99)->ecclesiarch</li>
       </rulesStrings>
     </generalRules>
     <descriptionMaker>
@@ -48,7 +48,7 @@
     </symbolPacks>
     <thingStyleCategories>
       <li>
-        <category>Christian</category>
+        <category>KK_Imperial</category>
         <priority>4</priority>
       </li>
     </thingStyleCategories>
@@ -85,8 +85,8 @@
 	<!-- Chaos Undivided -->
   <MemeDef>
     <defName>Structure_ChaosUndivided</defName>
-    <label>chaos undivided</label>
-    <description>The structure of Chaos Undivided - widespread across the Eye in worship of the Ruinous Powers.</description>
+    <label>chaos origin</label>
+    <description>This is a variant of the embodied theist structure. This ideoligion is a is a variation of Chaos Undivided. It may have very different precepts than those of normal worship of the Ruinous Powers, but its symbols are similar.</description>
     <category>Structure</category>
     <iconPath>UI/Structures/KK_ChaosUndivided</iconPath>
     <impact>0</impact>
@@ -99,9 +99,10 @@
     <generalRules>
       <rulesStrings>
         <li>memeCreed(p=99)->cult</li>
-        <li>memeCreed(P=99)->horde</li>
-        <li>memeCreed(P=99)->cabal</li>
-        <li>memeCreed(P=99)->host</li>
+        <li>memeCreed(p=99)->horde</li>
+        <li>memeCreed(p=99)->cabal</li>
+        <li>memeCreed(p=99)->host</li>
+        <li>memeCreed(p=99)->fray</li>
         <li>memeHyphenPrefix(p=3)->cursed</li>
         <li>memeHyphenPrefix(p=3)->lost</li>
         <li>memeHyphenPrefix(p=3)->corrupt</li>
@@ -136,7 +137,7 @@
 
     <thingStyleCategories>
       <li>
-        <category>Morbid</category>
+        <category>KK_Chaos</category>
         <priority>4</priority>
       </li>
     </thingStyleCategories>

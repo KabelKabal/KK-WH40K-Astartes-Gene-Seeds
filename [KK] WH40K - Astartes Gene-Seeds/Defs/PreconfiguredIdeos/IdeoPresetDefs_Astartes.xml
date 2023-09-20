@@ -20,6 +20,18 @@
   <!-- Loyalist Ideas -->
 
   <IdeoPresetDef>
+    <defName>Imperial_Default</defName>
+    <label>imperial cult</label>
+    <description>The model doctrine of the Imperial Cult.</description>
+    <categoryDef>Loyalist</categoryDef>
+    <memes>
+      <li>Loyalist</li>
+      <li>Proselytizer</li>
+      <li>HumanPrimacy</li>
+    </memes>
+  </IdeoPresetDef>
+
+  <IdeoPresetDef>
     <defName>Loyalist_Default</defName>
     <label>loyalist chapter</label>
     <description>The general doctrine of a Loyalist Astartes Chapter.</description>
@@ -32,6 +44,19 @@
   </IdeoPresetDef>
 
   <!-- Traitor Ideas -->
+
+  <IdeoPresetDef>
+    <defName>Chaos_Default</defName>
+    <label>chaos cult</label>
+    <description>The common dogma of Chaos Undivided.</description>
+    <categoryDef>Traitor</categoryDef>
+    <memes>
+      <li>Supremacist</li>
+      <li>Proselytizer</li>
+	  <li>PainIsVirtue</li>
+    </memes>
+  </IdeoPresetDef>
+
 
   <IdeoPresetDef>
     <defName>Traitor_Default</defName>

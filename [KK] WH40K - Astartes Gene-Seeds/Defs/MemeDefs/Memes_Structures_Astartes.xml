@@ -53,6 +53,58 @@
       </li>
     </thingStyleCategories>
   </MemeDef>
+  
+	<!-- Loyalist Chapter -->
+  <MemeDef>
+    <defName>Structure_LoyalistChapter</defName>
+    <label>loyalist chapter</label>
+    <description>The only truth is in the wisdom of our Primarch. The only good is through the direction of our Chapter.</description>
+    <category>Structure</category>
+    <iconPath>UI/Structures/KK_LoyalistChapter</iconPath>
+    <impact>0</impact>
+
+    <deityNameMakerOverride>DietyNameImperial</deityNameMakerOverride>
+    <deityTypeMakerOverride>DietyTypeImperial</deityTypeMakerOverride>
+
+    <worshipRoomLabel>cathedral</worshipRoomLabel>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <deityCount>1</deityCount>
+    <requireAnyRitualSeat><li>Pew</li></requireAnyRitualSeat>
+    <generalRules>
+      <rulesStrings>
+        <li>memeCreed(p=99)->chapter</li>
+        <li>memeLeaderNoun(p=99)->brother-captain</li>
+        <li>memeMoralist(p=99)->brother-chaplain</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+	<patterns>
+		<li><def>TheistMyth</def></li>
+		<li><def>TheistFounder</def></li>
+	</patterns>
+	<constants>
+		<li><key>structure_theist</key><value>true</value></li>
+	</constants>
+    </descriptionMaker>
+    <symbolPacks>
+		<li>
+			<ideoName>Loyalist Chapter</ideoName>
+			<adjective>Chapter</adjective>
+			<member>Brother</member>
+			<prefix>false</prefix>
+		</li>
+    </symbolPacks>
+    <thingStyleCategories>
+      <li>
+        <category>KK_Imperial</category>
+        <priority>99</priority>
+      </li>
+      <li>
+        <category>KK_Chapter</category>
+        <priority>99</priority>
+      </li>
+    </thingStyleCategories>
+  </MemeDef>
 
 	<!-- Imperial Cult Name / Type -->
   <RulePackDef>
@@ -138,6 +190,63 @@
     <thingStyleCategories>
       <li>
         <category>KK_Chaos</category>
+        <priority>99</priority>
+      </li>
+    </thingStyleCategories>
+  </MemeDef>
+
+	<!-- Traitor Chapter -->
+  <MemeDef>
+    <defName>Structure_TraitorChapter</defName>
+    <label>traitor chapter</label>
+    <description>The only truth is in the strength of our Primarch. There is no good - only power; and power is found in our Chapter.</description>
+    <category>Structure</category>
+    <iconPath>UI/Structures/KK_TraitorChapter</iconPath>
+    <impact>0</impact>
+
+    <worshipRoomLabel>temple</worshipRoomLabel>
+    <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+    <deityCount>4</deityCount>
+    <requireAnyRitualSeat><li>Pew</li></requireAnyRitualSeat>
+    <generalRules>
+      <rulesStrings>
+        <li>memeCreed(p=99)->chapter</li>
+        <li>memeLeaderNoun(p=99)->brother-captain</li>
+        <li>memeMoralist(p=99)->brother-sorcerer</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+	<patterns>
+		<li><def>TheistMyth</def></li>
+		<li><def>TheistFounder</def></li>
+	</patterns>
+	<constants>
+		<li><key>structure_theist</key><value>true</value></li>
+	</constants>
+    </descriptionMaker>
+    <symbolPacks>
+		<li>
+			<ideoName>Traitor Chapter</ideoName>
+			<adjective>Chapter</adjective>
+			<member>Brother</member>
+			<prefix>false</prefix>
+		</li>
+    </symbolPacks>
+
+    <fixedDeityNameTypes>
+      <li><name>Khorne</name><type>The Blood God</type></li>
+      <li><name>Tzeentch</name><type>The Changer of the Ways</type></li>
+      <li><name>Nurgle</name><type>The Great Lord of Decay</type></li>
+      <li><name>Slaanesh</name><type>The Prince of Excess</type></li>
+    </fixedDeityNameTypes>
+
+    <thingStyleCategories>
+      <li>
+        <category>KK_Chaos</category>
+        <priority>99</priority>
+      </li>
+      <li>
+        <category>KK_Chapter</category>
         <priority>99</priority>
       </li>
     </thingStyleCategories>

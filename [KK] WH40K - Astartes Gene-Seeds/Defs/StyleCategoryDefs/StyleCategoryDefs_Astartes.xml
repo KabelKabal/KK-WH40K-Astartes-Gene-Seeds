@@ -16,6 +16,16 @@
   </StyleCategoryDef>
   
   <StyleCategoryDef>
+    <defName>KK_Chapter</defName>
+    <label>Chapter</label>
+    <iconPath>UI/Structures/KK_LoyalistChapter</iconPath>
+    <soundOngoingRitual>RitualSustainer_Christian</soundOngoingRitual>
+    <ritualVisualEffectDef>Christian</ritualVisualEffectDef>
+    <thingDefStyles>
+    </thingDefStyles>
+  </StyleCategoryDef>
+  
+  <StyleCategoryDef>
     <defName>KK_Chaos</defName>
     <label>Chaos</label>
     <iconPath>UI/Structures/KK_ChaosUndivided</iconPath>

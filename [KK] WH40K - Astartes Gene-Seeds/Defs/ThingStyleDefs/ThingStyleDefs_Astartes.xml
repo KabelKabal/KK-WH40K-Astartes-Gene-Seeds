@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingStyleDef>
-    <defName>Imperial_IdeogramA</defName>
-    <graphicData>
-      <texPath>Things/Building/Misc/Ideogram/Imperial/Imperial_IdeogramA</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,3)</drawSize>
-    </graphicData>
-  </ThingStyleDef>
+	<!-- Imperial / Chapter -->
+	<ThingStyleDef>
+		<defName>Imperial_IdeogramA</defName>
+		<graphicData>
+			<texPath>Things/Building/Misc/Ideogram/Imperial/Imperial_IdeogramA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
   
-  <ThingStyleDef>
-    <defName>Chaos_IdeogramA</defName>
-    <graphicData>
-      <texPath>Things/Building/Misc/Ideogram/Chaos/Chaos_IdeogramA</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,3)</drawSize>
-    </graphicData>
-  </ThingStyleDef>
+	<ThingStyleDef>
+		<defName>Chapter_ChargeRifle</defName>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Chapter_ChargeRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+  
+	<!-- Chaos -->
+	<ThingStyleDef>
+		<defName>Chaos_IdeogramA</defName>
+		<graphicData>
+			<texPath>Things/Building/Misc/Ideogram/Chaos/Chaos_IdeogramA</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
 
 </Defs>

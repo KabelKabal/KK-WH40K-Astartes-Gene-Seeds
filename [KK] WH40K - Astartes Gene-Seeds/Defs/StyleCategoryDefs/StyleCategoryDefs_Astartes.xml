@@ -8,10 +8,10 @@
     <soundOngoingRitual>RitualSustainer_Christian</soundOngoingRitual>
     <ritualVisualEffectDef>Christian</ritualVisualEffectDef>
     <thingDefStyles>
-      <li>
-        <thingDef>Ideogram</thingDef>
-        <styleDef>Imperial_IdeogramA</styleDef>
-      </li>
+		<li>
+			<thingDef>Ideogram</thingDef>
+			<styleDef>Imperial_IdeogramA</styleDef>
+		</li>
     </thingDefStyles>
   </StyleCategoryDef>
   
@@ -22,6 +22,10 @@
     <soundOngoingRitual>RitualSustainer_Christian</soundOngoingRitual>
     <ritualVisualEffectDef>Christian</ritualVisualEffectDef>
     <thingDefStyles>
+		<li>
+			<thingDef>Gun_ChargeRifle</thingDef>
+			<styleDef>Chapter_ChargeRifle</styleDef>
+		</li>
     </thingDefStyles>
   </StyleCategoryDef>
   
@@ -32,10 +36,10 @@
     <soundOngoingRitual>RitualSustainer_Morbid</soundOngoingRitual>
     <ritualVisualEffectDef>Morbid</ritualVisualEffectDef>
     <thingDefStyles>
-      <li>
-        <thingDef>Ideogram</thingDef>
-        <styleDef>Chaos_IdeogramA</styleDef>
-      </li>
+		<li>
+			<thingDef>Ideogram</thingDef>
+			<styleDef>Chaos_IdeogramA</styleDef>
+		</li>
     </thingDefStyles>
   </StyleCategoryDef>
 
